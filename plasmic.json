@@ -22,22 +22,22 @@
   "defaultPlasmicDir": "./plasmic",
   "projects": [
     {
-      "projectId": "hacmAvrkpaQirs6Q4rJywU",
-      "projectApiToken": "5pWFzarabU7XET0046i78h6O78CLhPA8QA9CsFbTYytmSwjXiLGDvgvA2IFdYz1mpnA2jyi9KSoHnzw",
-      "projectName": "Token Studio Chakra",
+      "projectId": "DPkmvMAKQjDMJdGzzQWj8",
+      "projectApiToken": "hhJ7Y2w0b4Ht1GTXxr8PFbChdhCEE3A9AQ7lLqAJCpYclyCzbEfLD25aRmq0sXoXktDhzZRu0aaN03JqJyVQ",
+      "projectName": "Blank project",
       "version": "latest",
-      "cssFilePath": "plasmic/token_studio_chakra/plasmic_token_studio_chakra.module.css",
+      "cssFilePath": "plasmic/blank_project/plasmic_blank_project.module.css",
       "components": [
         {
-          "id": "YS3YZTBAg-pl",
+          "id": "3RHf25H0F7ur",
           "name": "Homepage",
           "type": "managed",
-          "projectId": "hacmAvrkpaQirs6Q4rJywU",
-          "renderModuleFilePath": "plasmic/token_studio_chakra/PlasmicHomepage.tsx",
+          "projectId": "DPkmvMAKQjDMJdGzzQWj8",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicHomepage.tsx",
           "importSpec": {
             "modulePath": "../pages/index.tsx"
           },
-          "cssFilePath": "plasmic/token_studio_chakra/PlasmicHomepage.module.css",
+          "cssFilePath": "plasmic/blank_project/PlasmicHomepage.module.css",
           "scheme": "blackbox",
           "componentType": "page"
         }
@@ -48,12 +48,12 @@
       "globalContextsFilePath": "",
       "codeComponents": [
         {
-          "id": "xkQC6rED_m",
+          "id": "AZY5qHLWb4",
           "name": "PlasmicHead",
           "componentImportPath": "@plasmicapp/react-web"
         },
         {
-          "id": "K80KBaGFHU",
+          "id": "1Ld3QCBTX1",
           "name": "Fetcher",
           "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
         }
@@ -63,10 +63,10 @@
   "globalVariants": {
     "variantGroups": [
       {
-        "id": "jSZPBPK80LX_9",
+        "id": "6-o-LtalMTN7A",
         "name": "Screen",
-        "projectId": "hacmAvrkpaQirs6Q4rJywU",
-        "contextFilePath": "plasmic/token_studio_chakra/PlasmicGlobalVariant__Screen.tsx"
+        "projectId": "DPkmvMAKQjDMJdGzzQWj8",
+        "contextFilePath": "plasmic/blank_project/PlasmicGlobalVariant__Screen.tsx"
       }
     ]
   },

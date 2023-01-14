@@ -13,13 +13,6 @@ export default {
     '*, *::before, &::after': {
       borderColor: mode('gray.200', 'gray.700')(props),
     },
-    'html,body': {
-      height: '100%',
-    },
-    '#__next, #root': {
-      display: 'flex',
-      flexDirection: 'column',
-      minH: '100%',
-    },
+
   }),
 }

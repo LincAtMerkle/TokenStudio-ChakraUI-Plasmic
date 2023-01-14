@@ -1,10 +1,11 @@
-
-import * as React from 'react';
-import Script from 'next/script';
-import { PlasmicCanvasHost, registerComponent } from '@plasmicapp/host';
+import * as React from "react";
+import Script from "next/script";
+import { PlasmicCanvasHost, registerComponent } from "@plasmicapp/host";
 import { ChakraProvider, Button } from "@chakra-ui/react";
+
 import { theme as proTheme } from '../pro-package/src/index'
 import { extendTheme, theme as baseTheme } from '@chakra-ui/react'
+
 
 const themePro = extendTheme(
   {
