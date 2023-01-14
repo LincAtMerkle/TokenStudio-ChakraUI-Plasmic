@@ -2,17 +2,77 @@
 import * as React from 'react';
 import Script from 'next/script';
 import { PlasmicCanvasHost, registerComponent } from '@plasmicapp/host';
+import { ChakraProvider, Button } from "@chakra-ui/react";
+import { theme as proTheme } from '../pro-package/src/index'
+import { extendTheme, theme as baseTheme } from '@chakra-ui/react'
 
-// You can register any code components that you want to use here; see
-// https://docs.plasmic.app/learn/code-components-ref/
-// And configure your Plasmic project to use the host url pointing at
-// the /plasmic-host page of your nextjs app (for example,
-// http://localhost:3000/plasmic-host).  See
-// https://docs.plasmic.app/learn/app-hosting/#set-a-plasmic-project-to-use-your-app-host
+const themePro = extendTheme(
+  {
+    colors: { ...baseTheme.colors, brand: baseTheme.colors.purple },
+  },
+  proTheme,
+)
 
-// registerComponent(...)
+registerComponent(Button, {
+  name: "Button",
+  importPath: "@chakra-ui/react",
+  props: {
+    size: {
+      type: "choice",
+      options: ["xl", "sm", "md", "lg"],
+    },
+    variant: {
+      type: "choice",
+      options: ["ghost", "primary","outline", "solid", "link", "unstyled"],
+      defaultValue: "solid",
+    },
+    colorScheme: {
+      type: "choice",
+      options: [
+        "whiteAlpha",
+        "blackAlpha",
+        "gray",
+        "red",
+        "orange",
+        "yellow",
+        "green",
+        "teal",
+        "blue",
+        "cyan",
+        "purple",
+        "pink",
+        "linkedin",
+        "facebook",
+        "messenger",
+        "whatsapp",
+        "twitter",
+        "telegram",
+      ],
+    },
+    iconSpacing: "number",
+    isActive: {
+      type: "boolean",
+    },
+    isDisabled: {
+      type: "boolean",
+    },
+    isLoading: {
+      type: "boolean",
+    },
+    children: {
+      type: "slot",
+      defaultValue: {
+        type: "text",
+        value: "Button",
+      },
+    },
+  },
+});
 
 export default function PlasmicHost() {
-  return <PlasmicCanvasHost />;
+  return (
+    <ChakraProvider theme={themePro}>
+      <PlasmicCanvasHost />
+    </ChakraProvider>
+  );
 }
-    

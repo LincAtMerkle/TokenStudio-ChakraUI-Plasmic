@@ -1,0 +1,39 @@
+{
+  "name": "@chakra-ui/pro-theme",
+  "version": "0.0.61",
+  "license": "UNLICENSED",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "dist/index.cjs",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup",
+    "release": "release-it --ci --verbose",
+    "prepack": "clean-package",
+    "postpack": "clean-package restore"
+  },
+  "dependencies": {
+    "@chakra-ui/theme-tools": "2.0.16",
+    "@chakra-ui/styled-system": "2.5.1"
+  },
+  "devDependencies": {
+    "clean-package": "2.2.0",
+    "release-it": "15.5.1",
+    "tsup": "6.5.0"
+  },
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    },
+    "./package.json": "./package.json"
+  }
+}
