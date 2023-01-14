@@ -18,6 +18,12 @@ const sizes = {
     fontSize: 'lg',
     px: 7,
   },
+  xxl:{
+    h: '4.5rem',
+    minW: '4.5rem',
+    fontSize: 'xl',
+    px: 7,
+  }
 }
 
 const variants = {
