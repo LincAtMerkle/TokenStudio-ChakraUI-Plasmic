@@ -1,0 +1,79 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "hacmAvrkpaQirs6Q4rJywU",
+      "projectApiToken": "5pWFzarabU7XET0046i78h6O78CLhPA8QA9CsFbTYytmSwjXiLGDvgvA2IFdYz1mpnA2jyi9KSoHnzw",
+      "projectName": "Token Studio Chakra",
+      "version": "latest",
+      "cssFilePath": "plasmic/token_studio_chakra/plasmic_token_studio_chakra.module.css",
+      "components": [
+        {
+          "id": "YS3YZTBAg-pl",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "hacmAvrkpaQirs6Q4rJywU",
+          "renderModuleFilePath": "plasmic/token_studio_chakra/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/token_studio_chakra/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [],
+      "images": [],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "xkQC6rED_m",
+          "name": "PlasmicHead",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "K80KBaGFHU",
+          "name": "Fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ]
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "jSZPBPK80LX_9",
+        "name": "Screen",
+        "projectId": "hacmAvrkpaQirs6Q4rJywU",
+        "contextFilePath": "plasmic/token_studio_chakra/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.193",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.193/dist/plasmic.schema.json"
+}
