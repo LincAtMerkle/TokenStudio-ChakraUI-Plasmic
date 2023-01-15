@@ -168,7 +168,7 @@ export function registerAllComponents() {
   // registerModalHeader();
   // registerModalBody();
   // registerModalFooter();
-  // registerModalCloseButton();
+  // registerModalCloseButton(); //
   registerNumberInput();
   registerNumberDecrementStepper();
   registerNumberIncrementStepper();
