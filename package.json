@@ -25,11 +25,13 @@
     "next": "13.1.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-icons": "^4.7.1",
     "react-live": "^3.1.1",
     "style-dictionary": "^3.7.2",
     "token-transformer": "^0.0.29"
   },
   "devDependencies": {
+    "@chakra-ui/cli": "^2.3.0",
     "@types/node": "18.11.18",
     "@types/react": "18.0.26",
     "@types/react-dom": "18.0.10",
