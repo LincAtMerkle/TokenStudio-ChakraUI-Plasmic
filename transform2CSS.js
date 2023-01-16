@@ -52,7 +52,7 @@ const fontWeightMap = {
 }
 
 /**
- * Helper: Transforms math like Figma Tokens
+ * Helper: Transforms math like Token Studio Chakra tokens
  */
 
 const parser = new Parser()
@@ -96,7 +96,7 @@ function transformFontWeights(value) {
 }
 
 /**
- * Helper: Transforms hex rgba colors used in figma tokens: rgba(#ffffff, 0.5) =? rgba(255, 255, 255, 0.5). This is kind of like an alpha() function.
+ * Helper: Transforms hex rgba colors used in token studio: rgba(#ffffff, 0.5) =? rgba(255, 255, 255, 0.5). This is kind of like an alpha() function.
  */
 function transformHEXRGBa(value) {
   if (value.startsWith('rgba(#')) {
