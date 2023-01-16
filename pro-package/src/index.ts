@@ -1,12 +1,18 @@
 import * as components from './components'
 import * as foundations from './foundations'
 
-// Do I import this here???
-import getChakraSemanticTokens from '../getChakraSemanticTokens'
-import tokenStudioChakra from '../src/foundations/tokenStudioChakra.json'
-const semanticTokens = getChakraSemanticTokens(tokenStudioChakra)
+// import getChakraSemanticTokens from '../getChakraSemanticTokens'
+import tokenStudioChakra from './foundations/tokenStudioChakra.json'
+// const semanticTokens = getChakraSemanticTokens(tokenStudioChakra)
 
-
+const semanticTokens = {
+  colors:{
+  'btn-bg': {
+    // 'default': tokenStudioChakra.colors['hh-light']['btn-primary-active-background-color']
+    'default': '#ff0000'
+    }
+  }
+}
 
 export const theme: Record<string, any> = {
   ...foundations,

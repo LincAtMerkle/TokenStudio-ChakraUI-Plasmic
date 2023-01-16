@@ -38,7 +38,6 @@ const getChakraSemanticTokens = (figmaTokens: any): SemanticTokens => {
         }
       } else {
         const tokens = figmaTokens[category].light || figmaTokens[category]
-
         for (const token in tokens) {
           semanticTokens[category][token] = tokens[token]
         }

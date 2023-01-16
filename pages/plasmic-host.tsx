@@ -8,7 +8,7 @@ import '@fontsource/inter/variable.css'
 
 const themePro = extendTheme(
   {
-    colors: { ...baseTheme.colors, brand: baseTheme.colors.purple },
+    colors: { ...baseTheme.colors, brand: baseTheme.colors.red },
   },
   proTheme,
 )
