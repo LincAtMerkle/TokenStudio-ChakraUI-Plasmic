@@ -4,7 +4,7 @@ import { ChakraProvider } from "@chakra-ui/react";
 import {registerAllComponents} from "./allComponents";
 import { theme as proTheme } from '../pro-package/src/index'
 import { extendTheme, theme as baseTheme } from '@chakra-ui/react'
-
+import '@fontsource/inter/variable.css'
 
 const themePro = extendTheme(
   {
