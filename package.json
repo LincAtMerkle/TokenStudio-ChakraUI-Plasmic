@@ -16,6 +16,7 @@
     "@chakra-ui/react": "^2.4.8",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
+    "@fontsource/inter": "^4.5.14",
     "@plasmicapp/cli": "^0.1.193",
     "@plasmicapp/host": "^1.0.93",
     "@plasmicapp/react-web": "^0.2.138",
