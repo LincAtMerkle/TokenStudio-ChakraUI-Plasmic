@@ -304,6 +304,6 @@ themeList.map((theme) => {
   })
 })
 
-fs.writeFileSync('./styles/theme/foundations/FigmaTokens.json', JSON.stringify(themeInfo, null, 2))
+fs.writeFileSync('./styles/foundations/tokenStudioChakra.json', JSON.stringify(themeInfo, null, 2))
 console.log('\n==============================================')
 console.log('\nBuild completed!')

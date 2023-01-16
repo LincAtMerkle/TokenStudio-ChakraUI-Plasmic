@@ -1,0 +1,7 @@
+{
+  "tokenSetsDirPath": "tokenStudioChakra",
+  "tokenSetsPath": "tokenStudioChakra/*.json",
+  "tokenSetsThemeMetaPath": "tokenStudioChakra/$themes.json",
+  "owner": "Lincoln",
+  "repo": "sd-chakra"
+}
