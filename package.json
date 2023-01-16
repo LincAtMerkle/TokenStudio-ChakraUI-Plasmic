@@ -8,8 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "transform2CSS": "node transform2CSS.js",
-    "resolve-tokens": "token-transformer tokenStudioChakra --theme --themeOutputPath styles/documentationTokens",
-    "copy-tokens": "ncp tokenStudioChakra styles/tokenStudioChakra"
+    "resolve-tokens": "token-transformer tokenStudioChakra --theme --themeOutputPath pro-package/documentationTokens",
+    "copy-tokens": "ncp tokenStudioChakra pro-package/tokenStudioChakra"
   },
   "dependencies": {
     "@chakra-ui/icons": "^2.0.16",
