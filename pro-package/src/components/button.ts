@@ -6,6 +6,12 @@ const baseStyle = {
   },
   fontWeight: 'semibold',
   borderRadius: 'lg',
+
+  // ******* THIS WORKS
+  backgroundColor: '#ff00ff',
+  // ******* THIS DOESNT WORK
+  // backgroundColor: 'bg-default',
+
 }
 
 const sizes = {
