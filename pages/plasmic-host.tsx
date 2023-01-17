@@ -2,7 +2,7 @@ import * as React from "react";
 import { PlasmicCanvasHost } from "@plasmicapp/host";
 import { ChakraProvider } from "@chakra-ui/react";
 import { registerAllComponents } from "./allComponents";
-import { theme as proTheme } from '../pro-package/src/index'
+// import { theme as proTheme } from '../pro-package/src/index'
 import { extendTheme, theme as baseTheme } from "@chakra-ui/react";
 import "@fontsource/inter/variable.css";
 import { hasVariant } from "@plasmicapp/react-web";
@@ -14,9 +14,9 @@ import { hasVariant } from "@plasmicapp/react-web";
 const tokens = {
   colors: {
     light: {
-      "bg-default": "#ff00ff",
+      "bg-default": "#ffff00",
       "fg-default": "#0000ff",
-      "btn-bg": "#ff00ff",
+      "btn-bg": "orange",
       "btn-fg": "#00ff00",
     },
   },
@@ -60,11 +60,12 @@ const components = {
   Button: {
     baseStyle: {
       background: 'btn-bg', //btn-primary-bg 
+      // background: 'btn-bg', //btn-primary-bg 
       color: 'btn-fg'
     },
     variant: {
       primary: {
-        background: 'bg-default',
+        background: 'blue',
         color: 'fg-default'
       }
     },
@@ -85,12 +86,12 @@ const components = {
 
 const theme = extendTheme(
   {
-    colors: { ...baseTheme.colors, brand: baseTheme.colors.yellow },
-    // styles,
-    // semanticTokens,
-    // components,
+    // colors: { ...baseTheme.colors, brand: baseTheme.colors.red },
+    styles,
+    semanticTokens,
+    components,
     },
-  proTheme,
+  // proTheme,
 );
 
 registerAllComponents();
