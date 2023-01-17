@@ -7,11 +7,10 @@ const baseStyle = {
   fontWeight: 'semibold',
   borderRadius: 'lg',
 
-  // ******* THIS WORKS
-  backgroundColor: '#ff00ff',
-  // ******* THIS DOESNT WORK
-  // backgroundColor: 'bg-default',
-
+  // ******* THIS WORKS 
+  // but it's pointing to semantic tokens in plasmic-host.tsx
+  // needs to point to Semantic tokens from TokenStudio
+  backgroundColor: 'btn-bg',
 }
 
 const sizes = {

@@ -1,9 +1,5 @@
 export default {
   colors: {
-    'bg-default': {
-      default: '#ff00ff',
-      _dark: 'gray.900',
-    },
     'bg-canvas': {
       default: 'gray.50',
       _dark: 'gray.900',
