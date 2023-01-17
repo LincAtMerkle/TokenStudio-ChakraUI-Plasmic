@@ -18,8 +18,8 @@
     "postpack": "clean-package restore"
   },
   "dependencies": {
-    "@chakra-ui/theme-tools": "2.0.16",
-    "@chakra-ui/styled-system": "2.5.1"
+    "@chakra-ui/styled-system": "2.5.1",
+    "@chakra-ui/theme-tools": "2.0.16"
   },
   "devDependencies": {
     "clean-package": "2.2.0",

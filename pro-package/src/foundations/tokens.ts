@@ -1,5 +1,14 @@
+// Looks like Semantic tokens format
 export default {
   colors: {
+    "btn-bg": {
+      default: "btn-bg",
+      _dark: "btn-bg",
+    },
+    "btn-fg": {
+      default: "btn-fg",
+      _dark: "btn-fg",
+    },
     'bg-canvas': {
       default: 'gray.50',
       _dark: 'gray.900',

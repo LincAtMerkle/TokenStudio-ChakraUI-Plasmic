@@ -83,12 +83,12 @@ const components = {
 
 
 
-const themePro = extendTheme(
+const theme = extendTheme(
   {
     colors: { ...baseTheme.colors, brand: baseTheme.colors.yellow },
-    styles,
-    semanticTokens,
-    components,
+    // styles,
+    // semanticTokens,
+    // components,
     },
   proTheme,
 );
@@ -97,7 +97,8 @@ registerAllComponents();
 
 export default function PlasmicHost() {
   return (
-    <ChakraProvider theme={themePro}>
+    // <ChakraProvider theme={themePro}>
+    <ChakraProvider theme={theme}>
       <PlasmicCanvasHost />
     </ChakraProvider>
   );
