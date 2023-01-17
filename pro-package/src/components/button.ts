@@ -36,10 +36,10 @@ const variants = {
     props.theme.components['Button']['variants']['solid']({
       ...props,
       variant: 'solid',
-      colorScheme: 'brand',
+      colorScheme: 'gray',
     }),
   'primary-on-accent': () => ({
-    bg: 'brand.50',
+    bg: 'bg-accent',
     color: 'brand.600',
     _hover: { bg: 'brand.100' },
     _active: { bg: 'brand.100' },
@@ -48,7 +48,7 @@ const variants = {
     props.theme.components['Button']['variants']['outline']({
       ...props,
       variant: 'outline',
-      colorScheme: 'gray',
+      colorScheme: 'purple',
     }),
   'secondary-on-accent': {
     color: 'white',
