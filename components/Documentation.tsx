@@ -10,6 +10,7 @@ export default interface DocumentationComponentProps {
   tokenName: string
 }
 
+
 export function Documentation({ set = 'comp/button', path = '', theme = 'light', render }: { 
     set?: string; path?: string; theme?: string; render: (data: any) => JSX.Element 
   }) {
