@@ -17,6 +17,7 @@ const theme = extendTheme(
     },
 );
 
+
 registerAllComponents();
 
 export default function PlasmicHost() {

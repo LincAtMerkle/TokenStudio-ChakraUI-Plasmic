@@ -42,48 +42,6 @@
         "type": "color"
       }
     },
-    "wv_blue": {
-      "50": {
-        "value": "#f8f8fd",
-        "type": "color"
-      },
-      "100": {
-        "value": "#e0e2fb",
-        "type": "color"
-      },
-      "200": {
-        "value": "#c1c5fd",
-        "type": "color"
-      },
-      "300": {
-        "value": "#a0abff",
-        "type": "color"
-      },
-      "400": {
-        "value": "#7c93ff",
-        "type": "color"
-      },
-      "500": {
-        "value": "#5b81ff",
-        "type": "color"
-      },
-      "600": {
-        "value": "#015fe3",
-        "type": "color"
-      },
-      "700": {
-        "value": "#0145a8",
-        "type": "color"
-      },
-      "800": {
-        "value": "#072b6c",
-        "type": "color"
-      },
-      "900": {
-        "value": "#081537",
-        "type": "color"
-      }
-    },
     "fl_pink": {
       "50": {
         "value": "#fff6fa",

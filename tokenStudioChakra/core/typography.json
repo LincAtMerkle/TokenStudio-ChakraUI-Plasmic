@@ -143,7 +143,7 @@
   },
   "font-weight": {
     "semiBold": {
-      "value": "Semibold",
+      "value": "Semi Bold",
       "type": "fontWeights",
       "default": "600"
     },
@@ -164,6 +164,10 @@
     }
   },
   "line-height": {
+    "1": {
+      "value": "130%",
+      "type": "lineHeights"
+    },
     "2": {
       "value": "150%",
       "type": "lineHeights"
@@ -175,32 +179,6 @@
     "120": {
       "value": "120%",
       "type": "lineHeights"
-    },
-    "19px": {
-      "value": "19",
-      "type": "lineHeights"
-    },
-    "24px": {
-      "value": "24",
-      "type": "lineHeights"
-    }
-  },
-  "text-case": {
-    "uppercase": {
-      "value": "uppercase",
-      "type": "textCase"
-    },
-    "lowercase": {
-      "value": "lowercase",
-      "type": "textCase"
-    },
-    "capitalize": {
-      "value": "capitalize",
-      "type": "textCase"
-    },
-    "none": {
-      "value": "none",
-      "type": "textCase"
     }
   }
 }

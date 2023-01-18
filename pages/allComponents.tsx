@@ -116,7 +116,7 @@ import {
 } from "./registerTag";
 import { registerIconButton } from "./registerIconButton";
 import { registerImageWithOverlay } from "./registerImageWithOverlay";
-import { registerChakraDocs } from "./registerChakraDocs";
+
 import { registerButtonPreview } from "./registerButtonPreview";
 
 //Custom icons
@@ -132,7 +132,11 @@ import { registerFunPassIcon } from "./registerFunPassIcon";
 import { registerLocationPinIcon } from "./registerLocationPinIcon";
 import { registerDartsIcon } from "./registerDartsIcon";
 
+import { registerColorComponent } from "./registerColorComponent";
+import { registerSizeComponent } from "./registerSize";
 export function registerAllComponents() {
+  registerColorComponent();
+  registerSizeComponent();
   registerAccordion();
   registerAccordionButton();
   registerAccordionIcon();
@@ -226,7 +230,6 @@ export function registerAllComponents() {
   registerTagCloseButton();
   registerIconButton();
   registerImageWithOverlay();
-  registerChakraDocs();
   registerButtonPreview();
 
   //Custom icons

@@ -24,7 +24,7 @@
     },
     "md": {
       "height": {
-        "value": "{semantic.component.28px}",
+        "value": "{semantic.component.medium}",
         "type": "sizing"
       },
       "icon-size": {

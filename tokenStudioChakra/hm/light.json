@@ -139,46 +139,6 @@
         "value": "{color.hm_navy.500}",
         "type": "color"
       }
-    },
-    "text-case": {
-      "status": {
-        "value": "{text-case.uppercase}",
-        "type": "textCase"
-      }
-    },
-    "color": {
-      "status": {
-        "neutral": {
-          "text-color": {
-            "value": "{semantic.primary.default}",
-            "type": "color"
-          },
-          "icon-color": {
-            "value": "{semantic.primary.default}",
-            "type": "color"
-          },
-          "backround-color": {
-            "value": "{color.hm_teal.500}",
-            "type": "color"
-          }
-        }
-      }
-    },
-    "font-size": {
-      "status": {
-        "s": {
-          "value": "{font-size.2}",
-          "type": "fontSizes"
-        },
-        "m": {
-          "value": "{font-size.3}",
-          "type": "fontSizes"
-        },
-        "l": {
-          "value": "{font-size.3}",
-          "type": "fontSizes"
-        }
-      }
     }
   },
   "font-family": {

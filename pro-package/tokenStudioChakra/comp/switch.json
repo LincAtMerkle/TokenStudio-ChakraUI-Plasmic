@@ -107,11 +107,11 @@
       },
       "thumb": {
         "width": {
-          "value": "{semantic.component.20px}",
+          "value": "{semantic.component.extra-small}",
           "type": "sizing"
         },
         "height": {
-          "value": "{semantic.component.20px}",
+          "value": "{semantic.component.extra-small}",
           "type": "sizing"
         }
       }
