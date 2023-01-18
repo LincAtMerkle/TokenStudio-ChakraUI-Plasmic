@@ -121,11 +121,53 @@
         "value": "{color.emerald.400}",
         "type": "color"
       }
+    },
+    "neutral": {
+      "fg": {
+        "value": "{color.st_red.500}",
+        "type": "color"
+      }
+    },
+    "primary": {
+      "default": {
+        "value": "{color.st_yellow.500}",
+        "type": "color"
+      }
+    },
+    "color": {
+      "status": {
+        "neutral": {
+          "text-color": {
+            "value": "{semantic.primary.default}",
+            "type": "color"
+          },
+          "icon-color": {
+            "value": "{semantic.primary.default}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "font-size": {
+      "status": {
+        "s": {
+          "value": "{font-size.2}",
+          "type": "fontSizes"
+        },
+        "m": {
+          "value": "{font-size.3}",
+          "type": "fontSizes"
+        },
+        "l": {
+          "value": "{font-size.3}",
+          "type": "fontSizes"
+        }
+      }
     }
   },
   "font-family": {
     "sans-serif": {
-      "value": "General Sans",
+      "value": "League Gothic",
       "type": "fontFamilies"
     }
   }

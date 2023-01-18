@@ -81,7 +81,7 @@
       "type": "color"
     },
     "line-height": {
-      "value": "{semantic.line-height.typography.heading}",
+      "value": "{semantic.line-height.typography.tag}",
       "type": "lineHeights"
     }
   }
