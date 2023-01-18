@@ -1,11 +1,10 @@
-
-
-import { ChakraDocsProps } from "../components/ChakraDocs";
+import ChakraDocs from "../components/ChakraDocs";
+import {registerComponent } from "@plasmicapp/host";
 
 export function registerChakraDocs(){
     registerComponent(ChakraDocs, {
         name: "ChakraDocs",
-        importPath: "@chakra-ui/react",
+        importPath: "../components/ChakraDocs",
         props: {
     theme: {
       type: 'choice',

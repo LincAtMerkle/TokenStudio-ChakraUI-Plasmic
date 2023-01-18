@@ -116,7 +116,7 @@ import {
 } from "./registerTag";
 import { registerIconButton } from "./registerIconButton";
 import { registerImageWithOverlay } from "./registerImageWithOverlay";
-// import { registerChakraDocs } from "./registerChakraDocs";
+import { registerChakraDocs } from "./registerChakraDocs";
 import { registerButtonPreview } from "./registerButtonPreview";
 
 //Custom icons

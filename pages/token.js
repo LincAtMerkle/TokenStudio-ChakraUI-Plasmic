@@ -11,8 +11,10 @@ const tokens = {
       light: {
         "bg-default": "#ffff00",
         "fg-default": "#0000ff",
-        "btn-bg":tokenStudioChakra.colors['st-light']["color-hm-navy-400"],
-        "btn-fg": "#00ff00",
+        "btn-bg":tokenStudioChakra.colors['st-light']["btn-primary-default-background-color"],
+        "btn-fg":tokenStudioChakra.colors['st-light']["btn-primary-default-text-color"],
+        // "btn-bg": "red",
+        // "btn-fg": "blue",      
       },
     },
   };

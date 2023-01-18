@@ -87,7 +87,7 @@ export function registerButton(){
         variant: {
           type: "choice",
           options: ["ghost", "primary","secondary","outline", "solid", "link", "unstyled"],
-          defaultValue: "solid",
+          defaultValue: "primary",
         },
         colorScheme: {
           type: "choice",
