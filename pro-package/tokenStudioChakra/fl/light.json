@@ -224,25 +224,6 @@
         "type": "color"
       }
     },
-    "component": {
-      "small": {
-        "value": "{size.250}",
-        "type": "sizing"
-      },
-      "medium": {
-        "value": "{size.300}",
-        "type": "sizing"
-      },
-      "large": {
-        "value": "28",
-        "type": "sizing",
-        "description": "{size.600}"
-      },
-      "extra-large": {
-        "value": "{size.400}",
-        "type": "sizing"
-      }
-    },
     "ui": {
       "border-radius": {
         "value": "{semantic.border.radius.small}",
@@ -1047,7 +1028,7 @@
         },
         "neutral": {
           "border-color": {
-            "value": "{semantic.neutral.fg}",
+            "value": "{color.hm_navy.500}",
             "type": "color"
           },
           "text-color": {
@@ -1952,42 +1933,26 @@
       },
       "status": {
         "s": {
-          "height": {
-            "value": "{semantic.component.small}",
-            "type": "sizing"
-          },
           "icon-size": {
             "value": "{size.100}",
             "type": "sizing"
           }
         },
         "m": {
-          "height": {
-            "value": "{semantic.component.medium}",
-            "type": "sizing"
-          },
           "icon-size": {
             "value": "{size.250}",
             "type": "sizing"
           }
         },
         "l": {
-          "height": {
-            "value": "{semantic.component.large}",
-            "type": "sizing"
-          },
           "icon-size": {
             "value": "{size.300}",
             "type": "sizing"
           }
         },
         "xl": {
-          "height": {
-            "value": "{semantic.component.extra-large}",
-            "type": "sizing"
-          },
           "icon-size": {
-            "value": "{size.400}",
+            "value": "{size.250}",
             "type": "sizing"
           }
         }
@@ -2063,8 +2028,8 @@
     },
     "line-height": {
       "typography": {
-        "tag": {
-          "value": "{line-height.19px}",
+        "heading": {
+          "value": "{line-height.120}",
           "type": "lineHeights"
         },
         "display": {
@@ -2082,12 +2047,16 @@
         "detail": {
           "value": "{line-height.19px}",
           "type": "lineHeights"
+        },
+        "tag": {
+          "value": "{line-height.24px}",
+          "type": "lineHeights"
         }
       }
     },
     "text-case": {
       "status": {
-        "value": "{text-case.uppercase}",
+        "value": "{text-case.lowercase}",
         "type": "textCase"
       }
     }

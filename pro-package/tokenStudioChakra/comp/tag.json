@@ -56,7 +56,7 @@
         "type": "spacing"
       },
       "text-size": {
-        "value": "{semantic.font-size.status.m}",
+        "value": "{semantic.font-size.status.s}",
         "type": "fontSizes"
       }
     },
@@ -90,18 +90,52 @@
         "type": "fontSizes"
       }
     },
+    "xl": {
+      "height": {
+        "value": "{semantic.sizing.status.xl.height}",
+        "type": "sizing"
+      },
+      "icon-size": {
+        "value": "{semantic.sizing.status.xl.icon-size}",
+        "type": "sizing"
+      },
+      "padding-left": {
+        "value": "{semantic.spacing.status.extra-large.padding-left}",
+        "type": "spacing"
+      },
+      "padding-right": {
+        "value": "{semantic.spacing.status.extra-large.padding-right}",
+        "type": "spacing"
+      },
+      "padding-top": {
+        "value": "{semantic.spacing.status.extra-large.padding-top}",
+        "type": "spacing"
+      },
+      "padding-bottom": {
+        "value": "{semantic.spacing.status.extra-large.padding-bottom}",
+        "type": "spacing"
+      }
+    },
     "default": {
       "background-color": {
+        "value": "{semantic.color.status.neutral.background-color}",
+        "type": "color",
+        "description": "{semantic.color.status.neutral.border-color}"
+      },
+      "border-color": {
         "value": "{semantic.color.status.neutral.border-color}",
-        "type": "color"
+        "type": "color",
+        "description": "{semantic.color.status.neutral.border-color}"
       },
       "text-color": {
-        "value": "{color.neutrals.white}",
-        "type": "color"
+        "value": "{semantic.color.status.neutral.text-color}",
+        "type": "color",
+        "description": "{color.neutrals.white}"
       },
       "icon-color": {
-        "value": "{color.neutrals.white}",
-        "type": "color"
+        "value": "{semantic.color.status.neutral.icon-color}",
+        "type": "color",
+        "description": "\n{color.neutrals.white}"
       }
     },
     "space-between": {
@@ -119,6 +153,18 @@
     "border-radius": {
       "value": "{semantic.border-radius.status}",
       "type": "borderRadius"
+    },
+    "text-case": {
+      "value": "{semantic.text-case.status}",
+      "type": "textCase"
+    },
+    "line-height": {
+      "value": "{semantic.line-height.typography.tag}",
+      "type": "lineHeights"
     }
+  },
+  "small": {
+    "value": "1",
+    "type": "borderWidth"
   }
 }

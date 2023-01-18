@@ -70,6 +70,10 @@
       "semi-bold": {
         "value": "Semi-Bold",
         "type": "fontWeights"
+      },
+      "status": {
+        "value": "{font-weight.bold}",
+        "type": "fontWeights"
       }
     },
     "spacing": {
@@ -124,7 +128,7 @@
     },
     "neutral": {
       "fg": {
-        "value": "{color.hm_teal.500}",
+        "value": "{color.wv_blue.500}",
         "type": "color"
       }
     },
@@ -136,29 +140,25 @@
     },
     "primary": {
       "default": {
-        "value": "{color.hm_navy.500}",
+        "value": "{color.bl_black.500}",
         "type": "color"
       }
     },
     "text-case": {
       "status": {
-        "value": "{text-case.uppercase}",
+        "value": "{text-case.capitalize}",
         "type": "textCase"
       }
     },
     "color": {
       "status": {
         "neutral": {
-          "text-color": {
-            "value": "{semantic.primary.default}",
-            "type": "color"
-          },
           "icon-color": {
             "value": "{semantic.primary.default}",
             "type": "color"
           },
-          "backround-color": {
-            "value": "{color.hm_teal.500}",
+          "text-color": {
+            "value": "{semantic.primary.default}",
             "type": "color"
           }
         }
@@ -167,15 +167,15 @@
     "font-size": {
       "status": {
         "s": {
-          "value": "{font-size.2}",
+          "value": "{font-size.1}",
           "type": "fontSizes"
         },
         "m": {
-          "value": "{font-size.3}",
+          "value": "11",
           "type": "fontSizes"
         },
         "l": {
-          "value": "{font-size.3}",
+          "value": "{font-size.2}",
           "type": "fontSizes"
         }
       }
@@ -183,7 +183,7 @@
   },
   "font-family": {
     "sans-serif": {
-      "value": "SignPainter HouseSlant",
+      "value": "Syne",
       "type": "fontFamilies"
     }
   }

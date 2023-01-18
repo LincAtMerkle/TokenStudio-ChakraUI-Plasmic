@@ -58,20 +58,6 @@
         "type": "borderWidth"
       }
     },
-    "font-weight": {
-      "regular": {
-        "value": "Regular",
-        "type": "fontWeights"
-      },
-      "medium": {
-        "value": "Medium",
-        "type": "fontWeights"
-      },
-      "semi-bold": {
-        "value": "Semi-Bold",
-        "type": "fontWeights"
-      }
-    },
     "spacing": {
       "ui": {
         "m": {
@@ -121,11 +107,59 @@
         "value": "{color.emerald.400}",
         "type": "color"
       }
+    },
+    "neutral": {
+      "fg": {
+        "value": "{color.ld_pink.500}",
+        "type": "color"
+      }
+    },
+    "color": {
+      "status": {
+        "neutral": {
+          "text-color": {
+            "value": "{semantic.primary.default}",
+            "type": "color"
+          },
+          "icon-color": {
+            "value": "{semantic.primary.default}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "primary": {
+      "default": {
+        "value": "{color.ld_purple.500}",
+        "type": "color"
+      }
+    },
+    "font-weight": {
+      "status": {
+        "value": "{font-weight.semiBold}",
+        "type": "fontWeights"
+      }
+    },
+    "font-size": {
+      "status": {
+        "s": {
+          "value": "{font-size.2}",
+          "type": "fontSizes"
+        },
+        "m": {
+          "value": "{font-size.2}",
+          "type": "fontSizes"
+        },
+        "l": {
+          "value": "{font-size.2}",
+          "type": "fontSizes"
+        }
+      }
     }
   },
   "font-family": {
     "sans-serif": {
-      "value": "General Sans",
+      "value": "Bogart Trial",
       "type": "fontFamilies"
     }
   }

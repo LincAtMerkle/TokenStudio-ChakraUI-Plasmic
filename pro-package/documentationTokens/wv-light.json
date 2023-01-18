@@ -70,6 +70,10 @@
       "semi-bold": {
         "value": "Semi-Bold",
         "type": "fontWeights"
+      },
+      "status": {
+        "value": "Bold",
+        "type": "fontWeights"
       }
     },
     "spacing": {
@@ -124,7 +128,7 @@
     },
     "neutral": {
       "fg": {
-        "value": "#28acaf",
+        "value": "#5b81ff",
         "type": "color"
       }
     },
@@ -136,29 +140,25 @@
     },
     "primary": {
       "default": {
-        "value": "#222b5c",
+        "value": "#222222",
         "type": "color"
       }
     },
     "text-case": {
       "status": {
-        "value": "uppercase",
+        "value": "capitalize",
         "type": "textCase"
       }
     },
     "color": {
       "status": {
         "neutral": {
-          "text-color": {
-            "value": "#222b5c",
-            "type": "color"
-          },
           "icon-color": {
-            "value": "#222b5c",
+            "value": "#222222",
             "type": "color"
           },
-          "backround-color": {
-            "value": "#28acaf",
+          "text-color": {
+            "value": "#222222",
             "type": "color"
           }
         }
@@ -167,15 +167,15 @@
     "font-size": {
       "status": {
         "s": {
-          "value": "12px",
+          "value": "10px",
           "type": "fontSizes"
         },
         "m": {
-          "value": "14px",
+          "value": 11,
           "type": "fontSizes"
         },
         "l": {
-          "value": "14px",
+          "value": "12px",
           "type": "fontSizes"
         }
       }
@@ -183,7 +183,7 @@
   },
   "font-family": {
     "sans-serif": {
-      "value": "SignPainter HouseSlant",
+      "value": "Syne",
       "type": "fontFamilies"
     }
   },
@@ -193,7 +193,7 @@
       "type": "borderRadius"
     },
     "font-family": {
-      "value": "SignPainter HouseSlant",
+      "value": "Syne",
       "type": "fontFamilies"
     },
     "font-weight": {
@@ -209,7 +209,7 @@
       "type": "color"
     },
     "background-color": {
-      "value": "#28acaf",
+      "value": "#5b81ff",
       "type": "color"
     },
     "padding-left": {
@@ -291,7 +291,7 @@
       }
     },
     "font-family": {
-      "value": "SignPainter HouseSlant",
+      "value": "Syne",
       "type": "fontFamilies"
     },
     "light": {
@@ -354,7 +354,7 @@
         "type": "spacing"
       },
       "text-size": {
-        "value": "12px",
+        "value": "10px",
         "type": "fontSizes"
       }
     },
@@ -384,7 +384,7 @@
         "type": "spacing"
       },
       "text-size": {
-        "value": "12px",
+        "value": "10px",
         "type": "fontSizes"
       }
     },
@@ -414,7 +414,7 @@
         "type": "spacing"
       },
       "text-size": {
-        "value": "14px",
+        "value": "12px",
         "type": "fontSizes"
       }
     },
@@ -446,22 +446,22 @@
     },
     "default": {
       "background-color": {
-        "value": "#28acaf",
+        "value": "#5b81ff",
         "type": "color",
         "description": "{semantic.color.status.neutral.border-color}"
       },
       "border-color": {
-        "value": "#28acaf",
+        "value": "#5b81ff",
         "type": "color",
         "description": "{semantic.color.status.neutral.border-color}"
       },
       "text-color": {
-        "value": "#222b5c",
+        "value": "#222222",
         "type": "color",
         "description": "{color.neutrals.white}"
       },
       "icon-color": {
-        "value": "#222b5c",
+        "value": "#222222",
         "type": "color",
         "description": "\n{color.neutrals.white}"
       }
@@ -471,11 +471,11 @@
       "type": "spacing"
     },
     "font-weight": {
-      "value": "Regular",
+      "value": "Bold",
       "type": "fontWeights"
     },
     "font-family": {
-      "value": "SignPainter HouseSlant",
+      "value": "Syne",
       "type": "fontFamilies"
     },
     "border-radius": {
@@ -483,7 +483,7 @@
       "type": "borderRadius"
     },
     "text-case": {
-      "value": "uppercase",
+      "value": "capitalize",
       "type": "textCase"
     },
     "line-height": {
@@ -561,7 +561,7 @@
       }
     },
     "font-family": {
-      "value": "SignPainter HouseSlant",
+      "value": "Syne",
       "type": "fontFamilies"
     },
     "text-size": {
@@ -852,7 +852,7 @@
       }
     },
     "font-family": {
-      "value": "SignPainter HouseSlant",
+      "value": "Syne",
       "type": "fontFamilies"
     },
     "font-weight": {
@@ -1345,7 +1345,7 @@
       "type": "fontWeights"
     },
     "font-family": {
-      "value": "SignPainter HouseSlant",
+      "value": "Syne",
       "type": "fontFamilies"
     }
   },
@@ -1354,7 +1354,7 @@
       "default": {
         "solid": {
           "background-color": {
-            "value": "#222b5c",
+            "value": "#222222",
             "type": "color"
           },
           "icon-color": {
@@ -1364,7 +1364,7 @@
         },
         "outlined": {
           "border-color": {
-            "value": "#222b5c",
+            "value": "#222222",
             "type": "color"
           },
           "background-color": {
@@ -1372,7 +1372,7 @@
             "type": "color"
           },
           "icon-color": {
-            "value": "#222b5c",
+            "value": "#222222",
             "type": "color"
           }
         },
@@ -1382,7 +1382,7 @@
             "type": "color"
           },
           "icon-color": {
-            "value": "#222b5c",
+            "value": "#222222",
             "type": "color"
           }
         }
@@ -1887,7 +1887,7 @@
       }
     },
     "font-family": {
-      "value": "SignPainter HouseSlant",
+      "value": "Syne",
       "type": "fontFamilies"
     },
     "text-color": {
@@ -2061,7 +2061,7 @@
       "type": "borderWidth"
     },
     "font-family": {
-      "value": "SignPainter HouseSlant",
+      "value": "Syne",
       "type": "fontFamilies"
     },
     "font-weight": {
@@ -2079,7 +2079,7 @@
           "type": "color"
         },
         "border-color": {
-          "value": "#222b5c",
+          "value": "#222222",
           "type": "color"
         },
         "icon-color": {
@@ -2630,7 +2630,7 @@
       "type": "color"
     },
     "font-family": {
-      "value": "SignPainter HouseSlant",
+      "value": "Syne",
       "type": "fontFamilies"
     }
   }

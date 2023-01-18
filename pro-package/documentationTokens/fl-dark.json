@@ -2,189 +2,63 @@
   "semantic": {
     "fg": {
       "default": {
-        "value": "#0C1116",
+        "value": "#ffffff",
         "type": "color"
       },
       "muted": {
-        "value": "#EAECEE",
+        "value": "#94a3b8",
         "type": "color"
       },
       "subtle": {
-        "value": "#ffffff",
+        "value": "#cbd5e1",
         "type": "color"
       },
       "on-accent": {
         "value": "#ffffff",
         "type": "color"
+      },
+      "on-disabled": {
+        "value": "#94a3b8",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "#cbd5e1",
+        "type": "color"
+      },
+      "accent": {
+        "value": "#a855f7",
+        "type": "color"
       }
     },
     "bg": {
-      "canvas": {
-        "value": "#F2F2F2",
-        "type": "color"
-      },
       "surface": {
-        "value": "#ffffff",
-        "type": "color"
-      }
-    },
-    "ui": {
-      "border-radius": {
-        "value": "12px",
-        "type": "borderRadius"
-      }
-    },
-    "border-radius": {
-      "ui-card": {
-        "value": "12px",
-        "type": "borderRadius"
-      },
-      "actions": {
-        "value": "32px",
-        "type": "borderRadius"
-      },
-      "inputs": {
-        "value": "32px",
-        "type": "borderRadius"
-      }
-    },
-    "border-width": {
-      "actions": {
-        "value": 1,
-        "type": "borderWidth"
-      },
-      "inputs": {
-        "value": 1,
-        "type": "borderWidth"
-      }
-    },
-    "font-weight": {
-      "regular": {
-        "value": "Regular",
-        "type": "fontWeights"
-      },
-      "medium": {
-        "value": "Medium",
-        "type": "fontWeights"
-      },
-      "semi-bold": {
-        "value": "Semi-Bold",
-        "type": "fontWeights"
-      }
-    },
-    "spacing": {
-      "ui": {
-        "m": {
-          "space-around": {
-            "value": 24,
-            "type": "spacing"
-          }
-        }
-      }
-    },
-    "error": {
-      "emphasised": {
-        "value": "#e31125",
+        "value": "#1e293b",
         "type": "color"
       },
-      "fg": {
-        "value": "#F4A0A8",
-        "type": "color"
-      }
-    },
-    "warning": {
-      "emphasised": {
-        "value": "#f59e0b",
+      "muted": {
+        "value": "#475569",
         "type": "color"
       },
-      "fg": {
-        "value": "#fbbf24",
-        "type": "color"
-      }
-    },
-    "info": {
-      "emphasised": {
-        "value": "#3b82f6",
+      "subtle": {
+        "value": "#31425C",
         "type": "color"
       },
-      "fg": {
-        "value": "#60a5fa",
+      "canvas": {
+        "value": "#334155",
         "type": "color"
-      }
-    },
-    "success": {
-      "emphasised": {
-        "value": "#10b981",
-        "type": "color"
-      },
-      "fg": {
-        "value": "#34d399",
-        "type": "color"
-      }
-    },
-    "neutral": {
-      "fg": {
-        "value": "#28acaf",
-        "type": "color"
-      }
-    },
-    "cta": {
-      "default": {
-        "value": "#e31125",
-        "type": "color"
-      }
-    },
-    "primary": {
-      "default": {
-        "value": "#222b5c",
-        "type": "color"
-      }
-    },
-    "text-case": {
-      "status": {
-        "value": "uppercase",
-        "type": "textCase"
       }
     },
     "color": {
-      "status": {
-        "neutral": {
-          "text-color": {
-            "value": "#222b5c",
-            "type": "color"
-          },
-          "icon-color": {
-            "value": "#222b5c",
-            "type": "color"
-          },
-          "backround-color": {
-            "value": "#28acaf",
-            "type": "color"
+      "actions": {
+        "primary": {
+          "default": {
+            "text-color": {
+              "value": "#f4f4f5",
+              "type": "color"
+            }
           }
         }
       }
-    },
-    "font-size": {
-      "status": {
-        "s": {
-          "value": "12px",
-          "type": "fontSizes"
-        },
-        "m": {
-          "value": "14px",
-          "type": "fontSizes"
-        },
-        "l": {
-          "value": "14px",
-          "type": "fontSizes"
-        }
-      }
-    }
-  },
-  "font-family": {
-    "sans-serif": {
-      "value": "SignPainter HouseSlant",
-      "type": "fontFamilies"
     }
   },
   "tooltip": {
@@ -193,7 +67,7 @@
       "type": "borderRadius"
     },
     "font-family": {
-      "value": "SignPainter HouseSlant",
+      "value": "Inter",
       "type": "fontFamilies"
     },
     "font-weight": {
@@ -209,7 +83,7 @@
       "type": "color"
     },
     "background-color": {
-      "value": "#28acaf",
+      "value": "#ffffff",
       "type": "color"
     },
     "padding-left": {
@@ -291,7 +165,7 @@
       }
     },
     "font-family": {
-      "value": "SignPainter HouseSlant",
+      "value": "Inter",
       "type": "fontFamilies"
     },
     "light": {
@@ -354,7 +228,7 @@
         "type": "spacing"
       },
       "text-size": {
-        "value": "12px",
+        "value": "14px",
         "type": "fontSizes"
       }
     },
@@ -384,7 +258,7 @@
         "type": "spacing"
       },
       "text-size": {
-        "value": "12px",
+        "value": "14px",
         "type": "fontSizes"
       }
     },
@@ -414,7 +288,7 @@
         "type": "spacing"
       },
       "text-size": {
-        "value": "14px",
+        "value": "18px",
         "type": "fontSizes"
       }
     },
@@ -424,7 +298,7 @@
         "type": "sizing"
       },
       "icon-size": {
-        "value": 32,
+        "value": 20,
         "type": "sizing"
       },
       "padding-left": {
@@ -446,12 +320,12 @@
     },
     "default": {
       "background-color": {
-        "value": "#28acaf",
+        "value": "#ffffff",
         "type": "color",
         "description": "{semantic.color.status.neutral.border-color}"
       },
       "border-color": {
-        "value": "#28acaf",
+        "value": "#222b5c",
         "type": "color",
         "description": "{semantic.color.status.neutral.border-color}"
       },
@@ -475,7 +349,7 @@
       "type": "fontWeights"
     },
     "font-family": {
-      "value": "SignPainter HouseSlant",
+      "value": "Inter",
       "type": "fontFamilies"
     },
     "border-radius": {
@@ -483,11 +357,11 @@
       "type": "borderRadius"
     },
     "text-case": {
-      "value": "uppercase",
+      "value": "lowercase",
       "type": "textCase"
     },
     "line-height": {
-      "value": 19,
+      "value": 24,
       "type": "lineHeights"
     }
   },
@@ -541,7 +415,7 @@
       },
       "soft": {
         "background-color": {
-          "value": "#e31125",
+          "value": "#a855f7",
           "type": "color"
         },
         "text-color": {
@@ -561,7 +435,7 @@
       }
     },
     "font-family": {
-      "value": "SignPainter HouseSlant",
+      "value": "Inter",
       "type": "fontFamilies"
     },
     "text-size": {
@@ -616,20 +490,20 @@
     },
     "default": {
       "border-color": {
-        "value": "#d1d5db",
+        "value": "#475569",
         "type": "color"
       }
     },
     "disabled": {
       "border-color": {
-        "value": "#6b7280",
+        "value": "#94a3b8",
         "type": "color"
       }
     },
     "selected": {
       "default": {
         "border-color": {
-          "value": "#e31125",
+          "value": "#a855f7",
           "type": "color"
         }
       },
@@ -644,13 +518,13 @@
       "unselected": {
         "default": {
           "background-color": {
-            "value": "#ffffff",
+            "value": "#1e293b",
             "type": "color"
           }
         },
         "disabled": {
           "background-color": {
-            "value": "#d1d5db",
+            "value": "#cbd5e1",
             "type": "color"
           }
         }
@@ -658,7 +532,7 @@
       "selected": {
         "default": {
           "background-color": {
-            "value": "#ffffff",
+            "value": "#1e293b",
             "type": "color"
           }
         },
@@ -750,7 +624,7 @@
       "type": "spacing"
     },
     "border-radius": {
-      "value": "32px",
+      "value": "4px",
       "type": "borderRadius"
     },
     "border-width": {
@@ -759,25 +633,25 @@
     },
     "default": {
       "border-color": {
-        "value": "#d1d5db",
+        "value": "#475569",
         "type": "color"
       },
       "background-color": {
-        "value": "#ffffff",
+        "value": "#1e293b",
         "type": "color"
       },
       "text-color": {
-        "value": "#EAECEE",
+        "value": "#94a3b8",
         "type": "color"
       },
       "icon-color": {
-        "value": "#EAECEE",
+        "value": "#94a3b8",
         "type": "color"
       }
     },
     "hover": {
       "border-color": {
-        "value": "#d1d5db",
+        "value": "#475569",
         "type": "color"
       },
       "background-color": {
@@ -785,11 +659,11 @@
         "type": "color"
       },
       "text-color": {
-        "value": "#EAECEE",
+        "value": "#94a3b8",
         "type": "color"
       },
       "icon-color": {
-        "value": "#EAECEE",
+        "value": "#94a3b8",
         "type": "color"
       }
     },
@@ -799,15 +673,15 @@
         "type": "color"
       },
       "background-color": {
-        "value": "#ffffff",
+        "value": "#1e293b",
         "type": "color"
       },
       "text-color": {
-        "value": "#EAECEE",
+        "value": "#94a3b8",
         "type": "color"
       },
       "icon-color": {
-        "value": "#EAECEE",
+        "value": "#94a3b8",
         "type": "color"
       },
       "border-width": {
@@ -817,42 +691,42 @@
     },
     "invalid": {
       "border-color": {
-        "value": "#F4A0A8",
+        "value": "#fd5347",
         "type": "color"
       },
       "background-color": {
-        "value": "#ffffff",
+        "value": "#1e293b",
         "type": "color"
       },
       "text-color": {
-        "value": "#F4A0A8",
+        "value": "#fd5347",
         "type": "color"
       },
       "icon-color": {
-        "value": "#F4A0A8",
+        "value": "#fd5347",
         "type": "color"
       }
     },
     "disabled": {
       "border-color": {
-        "value": "#6b7280",
+        "value": "#94a3b8",
         "type": "color"
       },
       "background-color": {
-        "value": "#d1d5db",
+        "value": "#cbd5e1",
         "type": "color"
       },
       "text-color": {
-        "value": "#6b7280",
+        "value": "#94a3b8",
         "type": "color"
       },
       "icon-color": {
-        "value": "#6b7280",
+        "value": "#94a3b8",
         "type": "color"
       }
     },
     "font-family": {
-      "value": "SignPainter HouseSlant",
+      "value": "Inter",
       "type": "fontFamilies"
     },
     "font-weight": {
@@ -924,31 +798,31 @@
     "unselected": {
       "default": {
         "border-color": {
-          "value": "#e31125",
+          "value": "#a855f7",
           "type": "color"
         },
         "background-color": {
-          "value": "#ffffff",
+          "value": "#1e293b",
           "type": "color"
         }
       },
       "error": {
         "border-color": {
-          "value": "#F4A0A8",
+          "value": "#fd5347",
           "type": "color"
         },
         "background-color": {
-          "value": "#ffffff",
+          "value": "#1e293b",
           "type": "color"
         }
       },
       "disabled": {
         "border-color": {
-          "value": "#6b7280",
+          "value": "#94a3b8",
           "type": "color"
         },
         "background-color": {
-          "value": "#d1d5db",
+          "value": "#cbd5e1",
           "type": "color"
         }
       },
@@ -960,11 +834,11 @@
     "selected": {
       "default": {
         "border-color": {
-          "value": "#e31125",
+          "value": "#a855f7",
           "type": "color"
         },
         "background-color": {
-          "value": "#ffffff",
+          "value": "#1e293b",
           "type": "color"
         }
       },
@@ -974,13 +848,13 @@
           "type": "color"
         },
         "background-color": {
-          "value": "#ffffff",
+          "value": "#1e293b",
           "type": "color"
         }
       },
       "disabled": {
         "border-color": {
-          "value": "#6b7280",
+          "value": "#94a3b8",
           "type": "color"
         }
       },
@@ -1007,7 +881,7 @@
       "selected": {
         "default": {
           "background-color": {
-            "value": "#ffffff",
+            "value": "#1e293b",
             "type": "color"
           }
         },
@@ -1019,7 +893,7 @@
         },
         "disabled": {
           "background-color": {
-            "value": "#d1d5db",
+            "value": "#cbd5e1",
             "type": "color"
           }
         }
@@ -1107,7 +981,7 @@
       "type": "spacing"
     },
     "border-radius": {
-      "value": "32px",
+      "value": "4px",
       "type": "borderRadius"
     },
     "border-width": {
@@ -1117,51 +991,51 @@
     "default": {
       "outlined": {
         "border-color": {
-          "value": "#d1d5db",
+          "value": "#475569",
           "type": "color"
         },
         "background-color": {
-          "value": "#ffffff",
+          "value": "#1e293b",
           "type": "color"
         },
         "text-color": {
-          "value": "#EAECEE",
+          "value": "#94a3b8",
           "type": "color"
         },
         "icon-color": {
-          "value": "#EAECEE",
+          "value": "#94a3b8",
           "type": "color"
         }
       },
       "filled": {
         "background-color": {
-          "value": "#ffffff",
+          "value": "#1e293b",
           "type": "color"
         },
         "text-color": {
-          "value": "#d1d5db",
+          "value": "#475569",
           "type": "color"
         },
         "icon-color": {
-          "value": "#d1d5db",
+          "value": "#475569",
           "type": "color"
         }
       },
       "flushed": {
         "border-color": {
-          "value": "#d1d5db",
+          "value": "#475569",
           "type": "color"
         },
         "background-color": {
-          "value": "#ffffff",
+          "value": "#1e293b",
           "type": "color"
         },
         "text-color": {
-          "value": "#EAECEE",
+          "value": "#94a3b8",
           "type": "color"
         },
         "icon-color": {
-          "value": "#EAECEE",
+          "value": "#94a3b8",
           "type": "color"
         }
       }
@@ -1169,7 +1043,7 @@
     "hover": {
       "outlined": {
         "border-color": {
-          "value": "#d1d5db",
+          "value": "#475569",
           "type": "color"
         },
         "background-color": {
@@ -1177,11 +1051,11 @@
           "type": "color"
         },
         "text-color": {
-          "value": "#EAECEE",
+          "value": "#94a3b8",
           "type": "color"
         },
         "icon-color": {
-          "value": "#EAECEE",
+          "value": "#94a3b8",
           "type": "color"
         }
       },
@@ -1191,17 +1065,17 @@
           "type": "color"
         },
         "text-color": {
-          "value": "#d1d5db",
+          "value": "#475569",
           "type": "color"
         },
         "icon-color": {
-          "value": "#d1d5db",
+          "value": "#475569",
           "type": "color"
         }
       },
       "flushed": {
         "border-color": {
-          "value": "#d1d5db",
+          "value": "#475569",
           "type": "color"
         },
         "background-color": {
@@ -1209,11 +1083,11 @@
           "type": "color"
         },
         "text-color": {
-          "value": "#d1d5db",
+          "value": "#475569",
           "type": "color"
         },
         "icon-color": {
-          "value": "#d1d5db",
+          "value": "#475569",
           "type": "color"
         }
       }
@@ -1225,15 +1099,15 @@
           "type": "color"
         },
         "background-color": {
-          "value": "#ffffff",
+          "value": "#1e293b",
           "type": "color"
         },
         "text-color": {
-          "value": "#EAECEE",
+          "value": "#94a3b8",
           "type": "color"
         },
         "icon-color": {
-          "value": "#EAECEE",
+          "value": "#94a3b8",
           "type": "color"
         }
       },
@@ -1243,15 +1117,15 @@
           "type": "color"
         },
         "background-color": {
-          "value": "#ffffff",
+          "value": "#1e293b",
           "type": "color"
         },
         "text-color": {
-          "value": "#d1d5db",
+          "value": "#475569",
           "type": "color"
         },
         "icon-color": {
-          "value": "#d1d5db",
+          "value": "#475569",
           "type": "color"
         }
       },
@@ -1261,7 +1135,7 @@
           "type": "color"
         },
         "background-color": {
-          "value": "#ffffff",
+          "value": "#1e293b",
           "type": "color"
         }
       }
@@ -1269,68 +1143,68 @@
     "invalid": {
       "outlined": {
         "border-color": {
-          "value": "#F4A0A8",
+          "value": "#fd5347",
           "type": "color"
         },
         "background-color": {
-          "value": "#ffffff",
+          "value": "#1e293b",
           "type": "color"
         },
         "text-color": {
-          "value": "#F4A0A8",
+          "value": "#fd5347",
           "type": "color"
         }
       },
       "filled": {
         "border-color": {
-          "value": "#F4A0A8",
+          "value": "#fd5347",
           "type": "color"
         },
         "background-color": {
-          "value": "#ffffff",
+          "value": "#1e293b",
           "type": "color"
         },
         "text-color": {
-          "value": "#F4A0A8",
+          "value": "#fd5347",
           "type": "color"
         }
       },
       "flushed": {
         "border-color": {
-          "value": "#F4A0A8",
+          "value": "#fd5347",
           "type": "color"
         },
         "background-color": {
-          "value": "#ffffff",
+          "value": "#1e293b",
           "type": "color"
         },
         "text-color": {
-          "value": "#F4A0A8",
+          "value": "#fd5347",
           "type": "color"
         }
       },
       "icon": {
         "icon-color": {
-          "value": "#F4A0A8",
+          "value": "#fd5347",
           "type": "color"
         }
       }
     },
     "disabled": {
       "border-color": {
-        "value": "#6b7280",
+        "value": "#94a3b8",
         "type": "color"
       },
       "background-color": {
-        "value": "#d1d5db",
+        "value": "#cbd5e1",
         "type": "color"
       },
       "text-color": {
-        "value": "#6b7280",
+        "value": "#94a3b8",
         "type": "color"
       },
       "icon-color": {
-        "value": "#6b7280",
+        "value": "#94a3b8",
         "type": "color"
       }
     },
@@ -1345,7 +1219,7 @@
       "type": "fontWeights"
     },
     "font-family": {
-      "value": "SignPainter HouseSlant",
+      "value": "Inter",
       "type": "fontFamilies"
     }
   },
@@ -1354,7 +1228,7 @@
       "default": {
         "solid": {
           "background-color": {
-            "value": "#222b5c",
+            "value": "#0ea5e9",
             "type": "color"
           },
           "icon-color": {
@@ -1364,7 +1238,7 @@
         },
         "outlined": {
           "border-color": {
-            "value": "#222b5c",
+            "value": "#0ea5e9",
             "type": "color"
           },
           "background-color": {
@@ -1372,7 +1246,7 @@
             "type": "color"
           },
           "icon-color": {
-            "value": "#222b5c",
+            "value": "#0ea5e9",
             "type": "color"
           }
         },
@@ -1382,7 +1256,7 @@
             "type": "color"
           },
           "icon-color": {
-            "value": "#222b5c",
+            "value": "#0ea5e9",
             "type": "color"
           }
         }
@@ -1574,7 +1448,7 @@
       "default": {
         "solid": {
           "background-color": {
-            "value": "#F4A0A8",
+            "value": "#fd5347",
             "type": "color"
           },
           "icon-color": {
@@ -1584,7 +1458,7 @@
         },
         "outlined": {
           "border-color": {
-            "value": "#F4A0A8",
+            "value": "#fd5347",
             "type": "color"
           },
           "background-color": {
@@ -1592,7 +1466,7 @@
             "type": "color"
           },
           "icon-color": {
-            "value": "#F4A0A8",
+            "value": "#fd5347",
             "type": "color"
           }
         },
@@ -1602,7 +1476,7 @@
             "type": "color"
           },
           "icon-color": {
-            "value": "#F4A0A8",
+            "value": "#fd5347",
             "type": "color"
           }
         }
@@ -1620,7 +1494,7 @@
         },
         "outlined": {
           "border-color": {
-            "value": "#F4A0A8",
+            "value": "#fd5347",
             "type": "color"
           },
           "background-color": {
@@ -1683,25 +1557,25 @@
     "disabled": {
       "solid": {
         "background-color": {
-          "value": "#d1d5db",
+          "value": "#cbd5e1",
           "type": "color"
         },
         "icon-color": {
-          "value": "#6b7280",
+          "value": "#94a3b8",
           "type": "color"
         }
       },
       "outlined": {
         "border-color": {
-          "value": "#d1d5db",
+          "value": "#cbd5e1",
           "type": "color"
         },
         "background-color": {
-          "value": "#d1d5db",
+          "value": "#cbd5e1",
           "type": "color"
         },
         "icon-color": {
-          "value": "#6b7280",
+          "value": "#94a3b8",
           "type": "color"
         }
       },
@@ -1711,13 +1585,13 @@
           "type": "color"
         },
         "icon-color": {
-          "value": "#d1d5db",
+          "value": "#cbd5e1",
           "type": "color"
         }
       }
     },
     "border-radius": {
-      "value": "32px",
+      "value": "4px",
       "type": "borderRadius"
     },
     "round": {
@@ -1809,7 +1683,7 @@
       "type": "sizing"
     },
     "icon-color": {
-      "value": "#e31125",
+      "value": "#a855f7",
       "type": "color"
     }
   },
@@ -1887,7 +1761,7 @@
       }
     },
     "font-family": {
-      "value": "SignPainter HouseSlant",
+      "value": "Inter",
       "type": "fontFamilies"
     },
     "text-color": {
@@ -1895,7 +1769,7 @@
       "type": "color"
     },
     "line-height": {
-      "value": 19,
+      "value": 24,
       "type": "lineHeights"
     }
   },
@@ -1963,31 +1837,31 @@
     "unselected": {
       "default": {
         "border-color": {
-          "value": "#e31125",
+          "value": "#a855f7",
           "type": "color"
         },
         "background-color": {
-          "value": "#ffffff",
+          "value": "#1e293b",
           "type": "color"
         }
       },
       "error": {
         "border-color": {
-          "value": "#F4A0A8",
+          "value": "#fd5347",
           "type": "color"
         },
         "background-color": {
-          "value": "#ffffff",
+          "value": "#1e293b",
           "type": "color"
         }
       },
       "disabled": {
         "border-color": {
-          "value": "#6b7280",
+          "value": "#94a3b8",
           "type": "color"
         },
         "background-color": {
-          "value": "#d1d5db",
+          "value": "#cbd5e1",
           "type": "color"
         }
       }
@@ -1995,11 +1869,11 @@
     "selected": {
       "default": {
         "border-color": {
-          "value": "#e31125",
+          "value": "#a855f7",
           "type": "color"
         },
         "background-color": {
-          "value": "#e31125",
+          "value": "#a855f7",
           "type": "color"
         }
       },
@@ -2015,11 +1889,11 @@
       },
       "disabled": {
         "border-color": {
-          "value": "#6b7280",
+          "value": "#94a3b8",
           "type": "color"
         },
         "background-color": {
-          "value": "#d1d5db",
+          "value": "#cbd5e1",
           "type": "color"
         }
       }
@@ -2028,7 +1902,7 @@
       "selected": {
         "default": {
           "icon-color": {
-            "value": "#ffffff",
+            "value": "#1e293b",
             "type": "color"
           }
         },
@@ -2040,7 +1914,7 @@
         },
         "disabled": {
           "icon-color": {
-            "value": "#6b7280",
+            "value": "#94a3b8",
             "type": "color"
           }
         }
@@ -2053,7 +1927,7 @@
   },
   "btn": {
     "border-radius": {
-      "value": "32px",
+      "value": "4px",
       "type": "borderRadius"
     },
     "border-width": {
@@ -2061,7 +1935,7 @@
       "type": "borderWidth"
     },
     "font-family": {
-      "value": "SignPainter HouseSlant",
+      "value": "Inter",
       "type": "fontFamilies"
     },
     "font-weight": {
@@ -2071,7 +1945,7 @@
     "primary": {
       "default": {
         "background-color": {
-          "value": "#e31125",
+          "value": "#a855f7",
           "type": "color"
         },
         "text-color": {
@@ -2079,7 +1953,7 @@
           "type": "color"
         },
         "border-color": {
-          "value": "#222b5c",
+          "value": "#0ea5e9",
           "type": "color"
         },
         "icon-color": {
@@ -2125,19 +1999,19 @@
       },
       "disabled": {
         "background-color": {
-          "value": "#d1d5db",
+          "value": "#cbd5e1",
           "type": "color"
         },
         "text-color": {
-          "value": "#6b7280",
+          "value": "#94a3b8",
           "type": "color"
         },
         "border-color": {
-          "value": "#d1d5db",
+          "value": "#cbd5e1",
           "type": "color"
         },
         "icon-color": {
-          "value": "#6b7280",
+          "value": "#94a3b8",
           "type": "color"
         }
       }
@@ -2199,19 +2073,19 @@
       },
       "disabled": {
         "background-color": {
-          "value": "#d1d5db",
+          "value": "#cbd5e1",
           "type": "color"
         },
         "text-color": {
-          "value": "#6b7280",
+          "value": "#94a3b8",
           "type": "color"
         },
         "border-color": {
-          "value": "#d1d5db",
+          "value": "#cbd5e1",
           "type": "color"
         },
         "icon-color": {
-          "value": "#6b7280",
+          "value": "#94a3b8",
           "type": "color"
         }
       }
@@ -2219,7 +2093,7 @@
     "negative": {
       "default": {
         "background-color": {
-          "value": "#F4A0A8",
+          "value": "#fd5347",
           "type": "color"
         },
         "text-color": {
@@ -2227,7 +2101,7 @@
           "type": "color"
         },
         "border-color": {
-          "value": "#F4A0A8",
+          "value": "#fd5347",
           "type": "color"
         },
         "icon-color": {
@@ -2273,19 +2147,19 @@
       },
       "disabled": {
         "background-color": {
-          "value": "#d1d5db",
+          "value": "#cbd5e1",
           "type": "color"
         },
         "text-color": {
-          "value": "#6b7280",
+          "value": "#94a3b8",
           "type": "color"
         },
         "border-color": {
-          "value": "#d1d5db",
+          "value": "#cbd5e1",
           "type": "color"
         },
         "icon-color": {
-          "value": "#6b7280",
+          "value": "#94a3b8",
           "type": "color"
         }
       }
@@ -2626,11 +2500,11 @@
       }
     },
     "background-color": {
-      "value": "#e31125",
+      "value": "#a855f7",
       "type": "color"
     },
     "font-family": {
-      "value": "SignPainter HouseSlant",
+      "value": "Inter",
       "type": "fontFamilies"
     }
   }

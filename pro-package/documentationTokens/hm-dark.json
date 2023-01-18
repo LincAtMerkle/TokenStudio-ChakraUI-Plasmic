@@ -124,7 +124,7 @@
     },
     "neutral": {
       "fg": {
-        "value": "#F4A0A8",
+        "value": "#28acaf",
         "type": "color"
       }
     },
@@ -139,11 +139,51 @@
         "value": "#222b5c",
         "type": "color"
       }
+    },
+    "text-case": {
+      "status": {
+        "value": "uppercase",
+        "type": "textCase"
+      }
+    },
+    "color": {
+      "status": {
+        "neutral": {
+          "text-color": {
+            "value": "#222b5c",
+            "type": "color"
+          },
+          "icon-color": {
+            "value": "#222b5c",
+            "type": "color"
+          },
+          "backround-color": {
+            "value": "#28acaf",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "font-size": {
+      "status": {
+        "s": {
+          "value": "12px",
+          "type": "fontSizes"
+        },
+        "m": {
+          "value": "14px",
+          "type": "fontSizes"
+        },
+        "l": {
+          "value": "14px",
+          "type": "fontSizes"
+        }
+      }
     }
   },
   "font-family": {
     "sans-serif": {
-      "value": "General Sans",
+      "value": "SignPainter HouseSlant",
       "type": "fontFamilies"
     }
   },
@@ -153,7 +193,7 @@
       "type": "borderRadius"
     },
     "font-family": {
-      "value": "General Sans",
+      "value": "SignPainter HouseSlant",
       "type": "fontFamilies"
     },
     "font-weight": {
@@ -169,7 +209,7 @@
       "type": "color"
     },
     "background-color": {
-      "value": "#F4A0A8",
+      "value": "#28acaf",
       "type": "color"
     },
     "padding-left": {
@@ -177,7 +217,7 @@
       "type": "spacing"
     },
     "padding-right": {
-      "value": 16,
+      "value": 8,
       "type": "spacing"
     },
     "padding-top": {
@@ -251,7 +291,7 @@
       }
     },
     "font-family": {
-      "value": "General Sans",
+      "value": "SignPainter HouseSlant",
       "type": "fontFamilies"
     },
     "light": {
@@ -268,7 +308,7 @@
     },
     "semi-bold": {
       "font-weight": {
-        "value": "Semi Bold",
+        "value": "Semibold",
         "type": "fontWeights"
       }
     },
@@ -290,11 +330,71 @@
   "tag": {
     "sm": {
       "height": {
-        "value": 24,
+        "value": 20,
         "type": "sizing"
       },
       "icon-size": {
         "value": 8,
+        "type": "sizing"
+      },
+      "padding-left": {
+        "value": 8,
+        "type": "spacing"
+      },
+      "padding-right": {
+        "value": 8,
+        "type": "spacing"
+      },
+      "padding-top": {
+        "value": 4,
+        "type": "spacing"
+      },
+      "padding-bottom": {
+        "value": 4,
+        "type": "spacing"
+      },
+      "text-size": {
+        "value": "12px",
+        "type": "fontSizes"
+      }
+    },
+    "md": {
+      "height": {
+        "value": 24,
+        "type": "sizing"
+      },
+      "icon-size": {
+        "value": 20,
+        "type": "sizing"
+      },
+      "padding-left": {
+        "value": 10,
+        "type": "spacing"
+      },
+      "padding-right": {
+        "value": 10,
+        "type": "spacing"
+      },
+      "padding-top": {
+        "value": 4,
+        "type": "spacing"
+      },
+      "padding-bottom": {
+        "value": 4,
+        "type": "spacing"
+      },
+      "text-size": {
+        "value": "12px",
+        "type": "fontSizes"
+      }
+    },
+    "lg": {
+      "height": {
+        "value": 28,
+        "type": "sizing"
+      },
+      "icon-size": {
+        "value": 24,
         "type": "sizing"
       },
       "padding-left": {
@@ -306,11 +406,11 @@
         "type": "spacing"
       },
       "padding-top": {
-        "value": 6,
+        "value": 4,
         "type": "spacing"
       },
       "padding-bottom": {
-        "value": 6,
+        "value": 4,
         "type": "spacing"
       },
       "text-size": {
@@ -318,82 +418,56 @@
         "type": "fontSizes"
       }
     },
-    "md": {
+    "xl": {
       "height": {
         "value": 32,
         "type": "sizing"
       },
       "icon-size": {
-        "value": 16,
+        "value": 32,
         "type": "sizing"
       },
       "padding-left": {
-        "value": 16,
+        "value": 8,
         "type": "spacing"
       },
       "padding-right": {
-        "value": 16,
+        "value": 8,
         "type": "spacing"
       },
       "padding-top": {
-        "value": 8,
+        "value": 4,
         "type": "spacing"
       },
       "padding-bottom": {
-        "value": 8,
+        "value": 4,
         "type": "spacing"
-      },
-      "text-size": {
-        "value": "16px",
-        "type": "fontSizes"
-      }
-    },
-    "lg": {
-      "height": {
-        "value": 40,
-        "type": "sizing"
-      },
-      "icon-size": {
-        "value": 24,
-        "type": "sizing"
-      },
-      "padding-left": {
-        "value": 16,
-        "type": "spacing"
-      },
-      "padding-right": {
-        "value": 16,
-        "type": "spacing"
-      },
-      "padding-top": {
-        "value": 8,
-        "type": "spacing"
-      },
-      "padding-bottom": {
-        "value": 8,
-        "type": "spacing"
-      },
-      "text-size": {
-        "value": "18px",
-        "type": "fontSizes"
       }
     },
     "default": {
       "background-color": {
-        "value": "#F4A0A8",
-        "type": "color"
+        "value": "#28acaf",
+        "type": "color",
+        "description": "{semantic.color.status.neutral.border-color}"
+      },
+      "border-color": {
+        "value": "#28acaf",
+        "type": "color",
+        "description": "{semantic.color.status.neutral.border-color}"
       },
       "text-color": {
-        "value": "#ffffff",
-        "type": "color"
+        "value": "#222b5c",
+        "type": "color",
+        "description": "{color.neutrals.white}"
       },
       "icon-color": {
-        "value": "#ffffff",
-        "type": "color"
+        "value": "#222b5c",
+        "type": "color",
+        "description": "\n{color.neutrals.white}"
       }
     },
     "space-between": {
-      "value": 8,
+      "value": 2,
       "type": "spacing"
     },
     "font-weight": {
@@ -401,13 +475,25 @@
       "type": "fontWeights"
     },
     "font-family": {
-      "value": "General Sans",
+      "value": "SignPainter HouseSlant",
       "type": "fontFamilies"
     },
     "border-radius": {
       "value": "100px",
       "type": "borderRadius"
+    },
+    "text-case": {
+      "value": "uppercase",
+      "type": "textCase"
+    },
+    "line-height": {
+      "value": 19,
+      "type": "lineHeights"
     }
+  },
+  "small": {
+    "value": 1,
+    "type": "borderWidth"
   },
   "tab": {
     "unselected": {
@@ -475,7 +561,7 @@
       }
     },
     "font-family": {
-      "value": "General Sans",
+      "value": "SignPainter HouseSlant",
       "type": "fontFamilies"
     },
     "text-size": {
@@ -595,12 +681,14 @@
       },
       "thumb": {
         "width": {
-          "value": 24,
-          "type": "sizing"
+          "value": "{semantic.component.20px}",
+          "type": "sizing",
+          "failedToResolve": true
         },
         "height": {
-          "value": 24,
-          "type": "sizing"
+          "value": "{semantic.component.20px}",
+          "type": "sizing",
+          "failedToResolve": true
         }
       }
     },
@@ -616,110 +704,111 @@
   "select": {
     "sm": {
       "height": {
-        "type": "sizing",
-        "value": 32
+        "value": 20,
+        "type": "sizing"
       },
       "icon-size": {
         "value": 20,
         "type": "sizing"
       },
       "text-size": {
-        "type": "fontSizes",
-        "value": "14px"
+        "value": "14px",
+        "type": "fontSizes"
       }
     },
     "md": {
       "height": {
+        "value": "{semantic.component.28px}",
         "type": "sizing",
-        "value": 40
+        "failedToResolve": true
       },
       "icon-size": {
         "value": 20,
         "type": "sizing"
       },
       "text-size": {
-        "type": "fontSizes",
-        "value": "16px"
+        "value": "16px",
+        "type": "fontSizes"
       }
     },
     "lg": {
       "height": {
-        "type": "sizing",
-        "value": 48
+        "value": 28,
+        "type": "sizing"
       },
       "icon-size": {
         "value": 20,
         "type": "sizing"
       },
       "text-size": {
-        "type": "fontSizes",
-        "value": "18px"
+        "value": "18px",
+        "type": "fontSizes"
       }
     },
     "space-between": {
-      "type": "spacing",
-      "value": 12
+      "value": 12,
+      "type": "spacing"
     },
     "border-radius": {
-      "type": "borderRadius",
-      "value": "32px"
+      "value": "32px",
+      "type": "borderRadius"
     },
     "border-width": {
-      "type": "borderWidth",
-      "value": 1
+      "value": 1,
+      "type": "borderWidth"
     },
     "default": {
       "border-color": {
-        "type": "color",
-        "value": "#475569"
+        "value": "#475569",
+        "type": "color"
       },
       "background-color": {
-        "type": "color",
-        "value": "#000000"
+        "value": "#000000",
+        "type": "color"
       },
       "text-color": {
-        "type": "color",
-        "value": "#2F2F97"
+        "value": "#2F2F97",
+        "type": "color"
       },
       "icon-color": {
-        "type": "color",
-        "value": "#2F2F97"
+        "value": "#2F2F97",
+        "type": "color"
       }
     },
     "hover": {
       "border-color": {
-        "type": "color",
-        "value": "#475569"
+        "value": "#475569",
+        "type": "color"
       },
       "background-color": {
-        "type": "color",
-        "value": "#ffffff"
+        "value": "#ffffff",
+        "type": "color"
       },
       "text-color": {
-        "type": "color",
-        "value": "#2F2F97"
+        "value": "#2F2F97",
+        "type": "color"
       },
       "icon-color": {
-        "type": "color",
-        "value": "#2F2F97"
+        "value": "#2F2F97",
+        "type": "color"
       }
     },
     "focus": {
       "border-color": {
-        "type": "color",
-        "value": "#eff6ff"
+        "value": "#eff6ff",
+        "type": "color"
       },
       "background-color": {
-        "type": "color",
-        "value": "#000000"
+        "value": "#000000",
+        "type": "color"
       },
       "text-color": {
-        "type": "color",
-        "value": "#2F2F97"
+        "value": "#2F2F97",
+        "type": "color"
       },
       "icon-color": {
-        "type": "color",
-        "value": "#2F2F97"
+        "value": "#2F2F97",
+        "type": "color"
       },
       "border-width": {
         "value": 4,
@@ -728,42 +817,42 @@
     },
     "invalid": {
       "border-color": {
-        "type": "color",
-        "value": "#F4A0A8"
+        "value": "#F4A0A8",
+        "type": "color"
       },
       "background-color": {
-        "type": "color",
-        "value": "#000000"
+        "value": "#000000",
+        "type": "color"
       },
       "text-color": {
-        "type": "color",
-        "value": "#F4A0A8"
+        "value": "#F4A0A8",
+        "type": "color"
       },
       "icon-color": {
-        "type": "color",
-        "value": "#F4A0A8"
+        "value": "#F4A0A8",
+        "type": "color"
       }
     },
     "disabled": {
       "border-color": {
-        "type": "color",
-        "value": "#94a3b8"
+        "value": "#94a3b8",
+        "type": "color"
       },
       "background-color": {
-        "type": "color",
-        "value": "#cbd5e1"
+        "value": "#cbd5e1",
+        "type": "color"
       },
       "text-color": {
-        "type": "color",
-        "value": "#94a3b8"
+        "value": "#94a3b8",
+        "type": "color"
       },
       "icon-color": {
-        "type": "color",
-        "value": "#94a3b8"
+        "value": "#94a3b8",
+        "type": "color"
       }
     },
     "font-family": {
-      "value": "General Sans",
+      "value": "SignPainter HouseSlant",
       "type": "fontFamilies"
     },
     "font-weight": {
@@ -948,7 +1037,7 @@
   "input": {
     "sm": {
       "height": {
-        "value": 32,
+        "value": 20,
         "type": "sizing"
       },
       "icon-size": {
@@ -970,8 +1059,9 @@
     },
     "md": {
       "height": {
-        "value": 40,
-        "type": "sizing"
+        "value": "{semantic.component.28px}",
+        "type": "sizing",
+        "failedToResolve": true
       },
       "icon-size": {
         "value": 20,
@@ -992,7 +1082,7 @@
     },
     "lg": {
       "height": {
-        "value": 48,
+        "value": 28,
         "type": "sizing"
       },
       "icon-size": {
@@ -1255,7 +1345,7 @@
       "type": "fontWeights"
     },
     "font-family": {
-      "value": "General Sans",
+      "value": "SignPainter HouseSlant",
       "type": "fontFamilies"
     }
   },
@@ -1660,11 +1750,11 @@
         "type": "sizing"
       },
       "height": {
-        "value": 32,
+        "value": 20,
         "type": "sizing"
       },
       "width": {
-        "value": 32,
+        "value": 20,
         "type": "sizing"
       }
     },
@@ -1674,12 +1764,14 @@
         "type": "sizing"
       },
       "height": {
-        "value": 40,
-        "type": "sizing"
+        "value": "{semantic.component.28px}",
+        "type": "sizing",
+        "failedToResolve": true
       },
       "width": {
-        "value": 40,
-        "type": "sizing"
+        "value": "{semantic.component.28px}",
+        "type": "sizing",
+        "failedToResolve": true
       }
     },
     "lg": {
@@ -1688,11 +1780,11 @@
         "type": "sizing"
       },
       "height": {
-        "value": 48,
+        "value": 28,
         "type": "sizing"
       },
       "width": {
-        "value": 48,
+        "value": 28,
         "type": "sizing"
       }
     },
@@ -1784,7 +1876,7 @@
     },
     "semi-bold": {
       "font-weight": {
-        "value": "Semi Bold",
+        "value": "Semibold",
         "type": "fontWeights"
       }
     },
@@ -1795,7 +1887,7 @@
       }
     },
     "font-family": {
-      "value": "General Sans",
+      "value": "SignPainter HouseSlant",
       "type": "fontFamilies"
     },
     "text-color": {
@@ -1803,7 +1895,7 @@
       "type": "color"
     },
     "line-height": {
-      "value": "120%",
+      "value": 19,
       "type": "lineHeights"
     }
   },
@@ -1969,11 +2061,11 @@
       "type": "borderWidth"
     },
     "font-family": {
-      "value": "General Sans",
+      "value": "SignPainter HouseSlant",
       "type": "fontFamilies"
     },
     "font-weight": {
-      "value": "Semi Bold",
+      "value": "Semibold",
       "type": "fontWeights"
     },
     "primary": {
@@ -2216,7 +2308,7 @@
         "type": "sizing"
       },
       "height": {
-        "value": 32,
+        "value": 20,
         "type": "sizing"
       }
     },
@@ -2246,8 +2338,9 @@
         "type": "sizing"
       },
       "height": {
-        "value": 40,
-        "type": "sizing"
+        "value": "{semantic.component.28px}",
+        "type": "sizing",
+        "failedToResolve": true
       }
     },
     "md": {
@@ -2276,7 +2369,7 @@
         "type": "sizing"
       },
       "height": {
-        "value": 48,
+        "value": 28,
         "type": "sizing"
       }
     },
@@ -2306,7 +2399,7 @@
         "type": "sizing"
       },
       "height": {
-        "value": 56,
+        "value": 32,
         "type": "sizing"
       }
     },
@@ -2537,7 +2630,7 @@
       "type": "color"
     },
     "font-family": {
-      "value": "General Sans",
+      "value": "SignPainter HouseSlant",
       "type": "fontFamilies"
     }
   }

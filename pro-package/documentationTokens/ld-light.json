@@ -58,20 +58,6 @@
         "type": "borderWidth"
       }
     },
-    "font-weight": {
-      "regular": {
-        "value": "Regular",
-        "type": "fontWeights"
-      },
-      "medium": {
-        "value": "Medium",
-        "type": "fontWeights"
-      },
-      "semi-bold": {
-        "value": "Semi-Bold",
-        "type": "fontWeights"
-      }
-    },
     "spacing": {
       "ui": {
         "m": {
@@ -124,44 +110,34 @@
     },
     "neutral": {
       "fg": {
-        "value": "#28acaf",
+        "value": "#bf439c",
         "type": "color"
-      }
-    },
-    "cta": {
-      "default": {
-        "value": "#e31125",
-        "type": "color"
-      }
-    },
-    "primary": {
-      "default": {
-        "value": "#222b5c",
-        "type": "color"
-      }
-    },
-    "text-case": {
-      "status": {
-        "value": "uppercase",
-        "type": "textCase"
       }
     },
     "color": {
       "status": {
         "neutral": {
           "text-color": {
-            "value": "#222b5c",
+            "value": "#1a0f2e",
             "type": "color"
           },
           "icon-color": {
-            "value": "#222b5c",
-            "type": "color"
-          },
-          "backround-color": {
-            "value": "#28acaf",
+            "value": "#1a0f2e",
             "type": "color"
           }
         }
+      }
+    },
+    "primary": {
+      "default": {
+        "value": "#1a0f2e",
+        "type": "color"
+      }
+    },
+    "font-weight": {
+      "status": {
+        "value": "Semibold",
+        "type": "fontWeights"
       }
     },
     "font-size": {
@@ -171,11 +147,11 @@
           "type": "fontSizes"
         },
         "m": {
-          "value": "14px",
+          "value": "12px",
           "type": "fontSizes"
         },
         "l": {
-          "value": "14px",
+          "value": "12px",
           "type": "fontSizes"
         }
       }
@@ -183,7 +159,7 @@
   },
   "font-family": {
     "sans-serif": {
-      "value": "SignPainter HouseSlant",
+      "value": "Bogart Trial",
       "type": "fontFamilies"
     }
   },
@@ -193,7 +169,7 @@
       "type": "borderRadius"
     },
     "font-family": {
-      "value": "SignPainter HouseSlant",
+      "value": "Bogart Trial",
       "type": "fontFamilies"
     },
     "font-weight": {
@@ -209,7 +185,7 @@
       "type": "color"
     },
     "background-color": {
-      "value": "#28acaf",
+      "value": "#bf439c",
       "type": "color"
     },
     "padding-left": {
@@ -291,7 +267,7 @@
       }
     },
     "font-family": {
-      "value": "SignPainter HouseSlant",
+      "value": "Bogart Trial",
       "type": "fontFamilies"
     },
     "light": {
@@ -414,7 +390,7 @@
         "type": "spacing"
       },
       "text-size": {
-        "value": "14px",
+        "value": "12px",
         "type": "fontSizes"
       }
     },
@@ -446,22 +422,22 @@
     },
     "default": {
       "background-color": {
-        "value": "#28acaf",
+        "value": "#bf439c",
         "type": "color",
         "description": "{semantic.color.status.neutral.border-color}"
       },
       "border-color": {
-        "value": "#28acaf",
+        "value": "#bf439c",
         "type": "color",
         "description": "{semantic.color.status.neutral.border-color}"
       },
       "text-color": {
-        "value": "#222b5c",
+        "value": "#1a0f2e",
         "type": "color",
         "description": "{color.neutrals.white}"
       },
       "icon-color": {
-        "value": "#222b5c",
+        "value": "#1a0f2e",
         "type": "color",
         "description": "\n{color.neutrals.white}"
       }
@@ -471,11 +447,11 @@
       "type": "spacing"
     },
     "font-weight": {
-      "value": "Regular",
+      "value": "Semibold",
       "type": "fontWeights"
     },
     "font-family": {
-      "value": "SignPainter HouseSlant",
+      "value": "Bogart Trial",
       "type": "fontFamilies"
     },
     "border-radius": {
@@ -541,7 +517,7 @@
       },
       "soft": {
         "background-color": {
-          "value": "#e31125",
+          "value": "#a855f7",
           "type": "color"
         },
         "text-color": {
@@ -561,7 +537,7 @@
       }
     },
     "font-family": {
-      "value": "SignPainter HouseSlant",
+      "value": "Bogart Trial",
       "type": "fontFamilies"
     },
     "text-size": {
@@ -629,7 +605,7 @@
     "selected": {
       "default": {
         "border-color": {
-          "value": "#e31125",
+          "value": "#a855f7",
           "type": "color"
         }
       },
@@ -852,7 +828,7 @@
       }
     },
     "font-family": {
-      "value": "SignPainter HouseSlant",
+      "value": "Bogart Trial",
       "type": "fontFamilies"
     },
     "font-weight": {
@@ -924,7 +900,7 @@
     "unselected": {
       "default": {
         "border-color": {
-          "value": "#e31125",
+          "value": "#a855f7",
           "type": "color"
         },
         "background-color": {
@@ -960,7 +936,7 @@
     "selected": {
       "default": {
         "border-color": {
-          "value": "#e31125",
+          "value": "#a855f7",
           "type": "color"
         },
         "background-color": {
@@ -1345,7 +1321,7 @@
       "type": "fontWeights"
     },
     "font-family": {
-      "value": "SignPainter HouseSlant",
+      "value": "Bogart Trial",
       "type": "fontFamilies"
     }
   },
@@ -1354,7 +1330,7 @@
       "default": {
         "solid": {
           "background-color": {
-            "value": "#222b5c",
+            "value": "#1a0f2e",
             "type": "color"
           },
           "icon-color": {
@@ -1364,7 +1340,7 @@
         },
         "outlined": {
           "border-color": {
-            "value": "#222b5c",
+            "value": "#1a0f2e",
             "type": "color"
           },
           "background-color": {
@@ -1372,7 +1348,7 @@
             "type": "color"
           },
           "icon-color": {
-            "value": "#222b5c",
+            "value": "#1a0f2e",
             "type": "color"
           }
         },
@@ -1382,7 +1358,7 @@
             "type": "color"
           },
           "icon-color": {
-            "value": "#222b5c",
+            "value": "#1a0f2e",
             "type": "color"
           }
         }
@@ -1809,7 +1785,7 @@
       "type": "sizing"
     },
     "icon-color": {
-      "value": "#e31125",
+      "value": "#a855f7",
       "type": "color"
     }
   },
@@ -1887,7 +1863,7 @@
       }
     },
     "font-family": {
-      "value": "SignPainter HouseSlant",
+      "value": "Bogart Trial",
       "type": "fontFamilies"
     },
     "text-color": {
@@ -1963,7 +1939,7 @@
     "unselected": {
       "default": {
         "border-color": {
-          "value": "#e31125",
+          "value": "#a855f7",
           "type": "color"
         },
         "background-color": {
@@ -1995,11 +1971,11 @@
     "selected": {
       "default": {
         "border-color": {
-          "value": "#e31125",
+          "value": "#a855f7",
           "type": "color"
         },
         "background-color": {
-          "value": "#e31125",
+          "value": "#a855f7",
           "type": "color"
         }
       },
@@ -2061,7 +2037,7 @@
       "type": "borderWidth"
     },
     "font-family": {
-      "value": "SignPainter HouseSlant",
+      "value": "Bogart Trial",
       "type": "fontFamilies"
     },
     "font-weight": {
@@ -2071,7 +2047,7 @@
     "primary": {
       "default": {
         "background-color": {
-          "value": "#e31125",
+          "value": "#a855f7",
           "type": "color"
         },
         "text-color": {
@@ -2079,7 +2055,7 @@
           "type": "color"
         },
         "border-color": {
-          "value": "#222b5c",
+          "value": "#1a0f2e",
           "type": "color"
         },
         "icon-color": {
@@ -2626,11 +2602,11 @@
       }
     },
     "background-color": {
-      "value": "#e31125",
+      "value": "#a855f7",
       "type": "color"
     },
     "font-family": {
-      "value": "SignPainter HouseSlant",
+      "value": "Bogart Trial",
       "type": "fontFamilies"
     }
   }

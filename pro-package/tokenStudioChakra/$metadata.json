@@ -21,18 +21,22 @@
     "comp/text",
     "comp/tooltip",
     "semantic/light",
+    "fl/light",
     "semantic/dark",
+    "fl/dark",
     "hm/light",
     "hm/dark",
-    "hh/light",
-    "hh/dark",
+    "ld/light",
+    "ld/dark",
     "st/light",
     "st/dark",
-    "bl/light",
-    "bl/dark",
     "ab/light",
     "ab/dark",
-    "ld/light",
-    "ld/dark"
+    "bl/light",
+    "bl/dark",
+    "wv/light",
+    "wv/dark",
+    "hh/light",
+    "hh/dark"
   ]
 }
