@@ -37,8 +37,7 @@ import {
 
 import "@plasmicapp/react-web/lib/plasmic.css";
 
-// NOT SURE HOW THE NEXT LINE GOT HERE
-// import projectcss from "../blank_project/plasmic_blank_project.module.css"; // plasmic-import: ccAPfW3XfEkPVBiJWBPNXX/projectcss
+import projectcss from "../blank_project/plasmic_blank_project.module.css"; // plasmic-import: ccAPfW3XfEkPVBiJWBPNXX/projectcss
 import sty from "./PlasmicTokenDocumentation.module.css"; // plasmic-import: 6fSdTsVn1h/css
 
 export type PlasmicTokenDocumentation__VariantMembers = {};

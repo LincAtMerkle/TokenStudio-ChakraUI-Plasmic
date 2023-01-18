@@ -33,11 +33,11 @@
           "name": "Homepage",
           "type": "managed",
           "projectId": "ccAPfW3XfEkPVBiJWBPNXX",
-          "renderModuleFilePath": "plasmic/token_studio_chakra/PlasmicHomepage.tsx",
+          "renderModuleFilePath": "plasmic/token_studio_chakrax/PlasmicHomepage.tsx",
           "importSpec": {
             "modulePath": "../pages/index.tsx"
           },
-          "cssFilePath": "plasmic/token_studio_chakra/PlasmicHomepage.module.css",
+          "cssFilePath": "plasmic/token_studio_chakrax/PlasmicHomepage.module.css",
           "scheme": "blackbox",
           "componentType": "page"
         },
@@ -59,7 +59,7 @@
         {
           "id": "HbrlDd-vrN",
           "name": "InterfaceIconIcon",
-          "moduleFilePath": "plasmic/token_studio_chakra/icons/PlasmicIcon__InterfaceIcon.tsx"
+          "moduleFilePath": "plasmic/token_studio_chakrax/icons/PlasmicIcon__InterfaceIcon.tsx"
         }
       ],
       "images": [
@@ -556,7 +556,7 @@
         "id": "74CmEZZWFc-5i",
         "name": "Screen",
         "projectId": "ccAPfW3XfEkPVBiJWBPNXX",
-        "contextFilePath": "plasmic/token_studio_chakra/PlasmicGlobalVariant__Screen.tsx"
+        "contextFilePath": "plasmic/token_studio_chakrax/PlasmicGlobalVariant__Screen.tsx"
       }
     ]
   },

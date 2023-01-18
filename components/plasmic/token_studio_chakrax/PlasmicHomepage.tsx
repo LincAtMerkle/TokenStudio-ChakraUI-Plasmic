@@ -116,9 +116,10 @@ import { AspectRatio } from "@chakra-ui/react"; // plasmic-import: S_mxCSCBIt/co
 
 import "@plasmicapp/react-web/lib/plasmic.css";
 
-import projectcss from "../blank_project/plasmic_blank_project.module.css"; // plasmic-import: ccAPfW3XfEkPVBiJWBPNXX/projectcss
-import sty from "./PlasmicHomepage.module.css"; // plasmic-import: H8WLATolXXZm/css
-
+// import projectcss from "../token_studio_chakra/plasmic_token_studio_chakra.module.css"; // plasmic-import: ccAPfW3XfEkPVBiJWBPNXX/projectcss
+import projectcss from "../token_studio_chakra/PlasmicTokenDocumentation"; // plasmic-import: ccAPfW3XfEkPVBiJWBPNXX/projectcss
+import sty from "./PlasmicTokenDocumentation"; // plasmic-import: H8WLATolXXZm/css
+T
 import InterfaceIconIcon from "./icons/PlasmicIcon__InterfaceIcon"; // plasmic-import: HbrlDd-vrN/icon
 
 export type PlasmicHomepage__VariantMembers = {};
