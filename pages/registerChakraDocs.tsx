@@ -43,8 +43,8 @@ export function registerChakraDocs(){
         "comp/tooltip",
         "semantic/light",
         "semantic/dark",
-        "Brand-ChakraDemo/light",
-        "Brand-ChakraDemo/dark"
+        "hm/light",
+        "hm/dark"
       ],
       // title: "Token set",
       description: "Token set",
