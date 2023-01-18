@@ -4,7 +4,7 @@ import * as React from "react";
 import {
   PlasmicTokenDocumentation,
   DefaultTokenDocumentationProps
-} from "./plasmic/focus_poc_local_host/PlasmicTokenDocumentation";
+} from "./plasmic/token_studio_chakra/PlasmicTokenDocumentation";
 import { HTMLElementRefOf } from "@plasmicapp/react-web";
 
 // Your component props start with props for variants and slots you defined
