@@ -1,0 +1,41 @@
+.root {
+  flex-direction: column;
+  display: inline-flex;
+  position: relative;
+  width: auto;
+  height: auto;
+  background: #ffffff;
+  padding: 100px;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  margin-top: calc(0px - 24px);
+  height: calc(100% + 24px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-top: 24px;
+}
+.tokenName {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  min-width: 0;
+}
+.textValue {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  min-width: 0;
+}
+.description {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  min-width: 0;
+}

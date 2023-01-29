@@ -116,7 +116,7 @@ import {
 } from "./registerTag";
 import { registerIconButton } from "./registerIconButton";
 import { registerImageWithOverlay } from "./registerImageWithOverlay";
-
+import { registerChakraDocs } from "./registerChakraDocs";
 import { registerButtonPreview } from "./registerButtonPreview";
 
 //Custom icons
@@ -230,6 +230,7 @@ export function registerAllComponents() {
   registerTagCloseButton();
   registerIconButton();
   registerImageWithOverlay();
+  registerChakraDocs();
   registerButtonPreview();
 
   //Custom icons

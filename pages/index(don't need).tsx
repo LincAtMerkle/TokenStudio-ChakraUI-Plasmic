@@ -3,8 +3,8 @@
 import * as React from "react";
 import * as ph from "@plasmicapp/host";
 
-import { ScreenVariantProvider } from "../components/plasmic/chakra_docs_test/PlasmicGlobalVariant__Screen";
-import { PlasmicHomepage } from "../components/plasmic/chakra_docs_test/PlasmicHomepage";
+import { ScreenVariantProvider } from "../components/plasmic/token_studio_chakra/PlasmicGlobalVariant__Screen";
+import { PlasmicHomepage } from "../components/plasmic/token_studio_chakra/PlasmicHomepage";
 import { useRouter } from "next/router";
 
 function Homepage() {
