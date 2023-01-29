@@ -31,9 +31,9 @@ export default function ChakraDocs(
     return (
       <div className={className}>
         <Documentation
-          set={set}
-          path={path}
           theme={theme}
+          path={path}
+          set={set}
           render={(data) => {
             return data.map(
               ({ value, tokenName, variant, description }: any, i: any) => {
@@ -41,9 +41,10 @@ export default function ChakraDocs(
                   <div key={`token-docs-${i}`} style={{ padding: 0 }}>
                     <DesignTokenItem
                       //@ts-ignore
-                      tokenName={tokenName}
-                      textValue={value}
                       description={description}
+                      textValue={value}
+                      tokenName={tokenName}
+                      value={value}
                       variant={variant}
                       radius={value}
                       fontSize={value} //parseInt(value)}
