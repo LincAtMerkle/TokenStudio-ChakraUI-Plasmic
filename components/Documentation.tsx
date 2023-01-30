@@ -30,11 +30,11 @@ export function Documentation({
     async function loadData() {
       try {
         if (metadata.tokenSetOrder.includes(set)) {
-          console.log('****  HERE NOW  ***')
+          // console.log('****  HERE NOW  ***')
           const data = await import(
             `../pro-package/tokenStudioChakra/${set}.json`
           );
-          console.log("***DATA***:" + JSON.stringify(data));
+          // console.log("***DATA***:" + JSON.stringify(data));
 
           setData(data.default);
         } else {
@@ -52,7 +52,7 @@ export function Documentation({
   ////******** MERGE THIS WITH.....
   const jsonData = useMemo(() => {
     if (data) {
-      console.log("!!!!!!!! data: "+ JSON.stringify(data))
+      // console.log("!!!!!!!! data: "+ JSON.stringify(data))
       const themeFile: Record<string, any> =
         theme === "light" ? lightTokens : darkTokens;
       if (path) {
@@ -67,19 +67,8 @@ export function Documentation({
       } else {
         const themeData: Record<string, any> = {};
         Object.keys(data).forEach((key) => {
-          console.log("key: "+ key)
-          // I SEE A KEY color, radius...
-          // I SEE A KEY color, radius...
-          // I SEE A KEY color, radius...
-          // I SEE A KEY color, radius...
-          // I SEE A KEY color, radius...
-          // I SEE A KEY color, radius...
-          // I SEE A KEY color, radius...
-          // I SEE A KEY color, radius...
-          // SO WHY IS "data[key]: {}
           themeData[key] = themeFile[key] || {};
         });
-
         return themeData || {};
       }
     }
@@ -90,21 +79,20 @@ export function Documentation({
   const tokenData = useMemo(() => {
     const tokenData: DocumentationComponentProps[] = [];
     const getTokenData = (data: Record<string, any>, path = ""): any => {
-      Object.keys(data).forEach((key) => {
+      Object.keys(data).forEach((key) => {        
+        console.log(key, data[key]);
         let tokenPath = path;
-        console.log("tokenPath: "+tokenPath)
-        console.log("data[key]: "+ JSON.stringify(data[key]))
         if ("value" in data[key]) {
           // CAN"T GET IN HERE. BUT I ADDED value as a prop. 
-          // console log returns "data[key]: {}
+          // console log returns "data[key]: {}"
           // It looks empty Why? 
           console.log("!!!!!!!!!!!     HERE FINALLY    !!!!!!!!!!!")
           const tokenName = tokenPath ? `${tokenPath}.${key}` : key;
           const variant = data[key].type as string;
           const value = data[key].value as string;
-          console.log("tokenName: "+tokenName)
-          console.log("variant: "+variant)
-          console.log("value: "+value)
+          // console.log("tokenName: "+tokenName)
+          // console.log("variant: "+variant)
+          // console.log("value: "+value)
           tokenData.push({
             variant,
             value,

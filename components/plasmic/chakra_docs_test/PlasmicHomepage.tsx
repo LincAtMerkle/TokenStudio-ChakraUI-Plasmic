@@ -167,6 +167,8 @@ function PlasmicHomepage__RenderFunc(props: {
             data-plasmic-name={"chakraDocs"}
             data-plasmic-override={overrides.chakraDocs}
             className={classNames("__wab_instance", sty.chakraDocs)}
+            set={"core/color" as const}
+            theme={"light" as const}
           />
         </div>
       </div>

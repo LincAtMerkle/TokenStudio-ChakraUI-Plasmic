@@ -53,6 +53,19 @@
           "cssFilePath": "plasmic/chakra_docs_test/PlasmicDesignTokenItem.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "PttposgWw-",
+          "name": "TokenSwatch",
+          "type": "managed",
+          "projectId": "4hCq2yK3sCmAagxeN2rvEp",
+          "renderModuleFilePath": "plasmic/chakra_docs_test/PlasmicTokenSwatch.tsx",
+          "importSpec": {
+            "modulePath": "TokenSwatch.tsx"
+          },
+          "cssFilePath": "plasmic/chakra_docs_test/PlasmicTokenSwatch.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [],

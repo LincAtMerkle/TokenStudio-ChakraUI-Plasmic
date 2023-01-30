@@ -34,6 +34,7 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
+import TokenSwatch from "../../TokenSwatch"; // plasmic-import: PttposgWw-/component
 
 import "@plasmicapp/react-web/lib/plasmic.css";
 
@@ -102,6 +103,7 @@ export type PlasmicDesignTokenItem__OverridesType = {
   tokenName?: p.Flex<"div">;
   textValue?: p.Flex<"div">;
   description?: p.Flex<"div">;
+  tokenSwatch?: p.Flex<typeof TokenSwatch>;
 };
 
 export interface DefaultDesignTokenItemProps {
@@ -251,14 +253,6 @@ function PlasmicDesignTokenItem__RenderFunc(props: {
         variableType: "variant"
       },
       {
-        path: "opacity",
-        type: "private",
-        variableType: "variant",
-        initFunc: true ? ($props, $state, $ctx) => $props.opacity : undefined,
-
-        variableType: "variant"
-      },
-      {
         path: "letterSpacing",
         type: "private",
         variableType: "variant",
@@ -283,6 +277,14 @@ function PlasmicDesignTokenItem__RenderFunc(props: {
         initFunc: true
           ? ($props, $state, $ctx) => $props.textDecoration
           : undefined,
+
+        variableType: "variant"
+      },
+      {
+        path: "opacity",
+        type: "private",
+        variableType: "variant",
+        initFunc: true ? ($props, $state, $ctx) => $props.opacity : undefined,
 
         variableType: "variant"
       }
@@ -318,7 +320,30 @@ function PlasmicDesignTokenItem__RenderFunc(props: {
             "borderWidth",
             "borderWidth"
           ),
-          [sty.rootradii]: hasVariant($state, "radii", "radii")
+          [sty.rootboxShadow]: hasVariant($state, "boxShadow", "boxShadow"),
+          [sty.rootcolor]: hasVariant($state, "color", "color"),
+          [sty.rootfontFamily]: hasVariant($state, "fontFamily", "fontFamily"),
+          [sty.rootfontSize]: hasVariant($state, "fontSize", "fontSize"),
+          [sty.rootfontWeight]: hasVariant($state, "fontWeight", "fontWeight"),
+          [sty.rootletterSpacing]: hasVariant(
+            $state,
+            "letterSpacing",
+            "letterSpacing"
+          ),
+          [sty.rootlineHieight]: hasVariant(
+            $state,
+            "lineHieight",
+            "lineHieight"
+          ),
+          [sty.rootradii]: hasVariant($state, "radii", "radii"),
+          [sty.rootsizing]: hasVariant($state, "sizing", "sizing"),
+          [sty.rootspacing]: hasVariant($state, "spacing", "spacing"),
+          [sty.roottextCase]: hasVariant($state, "textCase", "textCase"),
+          [sty.roottextDecoration]: hasVariant(
+            $state,
+            "textDecoration",
+            "textDecoration"
+          )
         }
       )}
     >
@@ -328,7 +353,14 @@ function PlasmicDesignTokenItem__RenderFunc(props: {
         className={classNames(
           projectcss.all,
           projectcss.__wab_text,
-          sty.tokenName
+          sty.tokenName,
+          {
+            [sty.tokenNamebordeRadius]: hasVariant(
+              $state,
+              "bordeRadius",
+              "bordeRadius"
+            )
+          }
         )}
       >
         {"tokenName"}
@@ -340,10 +372,17 @@ function PlasmicDesignTokenItem__RenderFunc(props: {
         className={classNames(
           projectcss.all,
           projectcss.__wab_text,
-          sty.textValue
+          sty.textValue,
+          {
+            [sty.textValuebordeRadius]: hasVariant(
+              $state,
+              "bordeRadius",
+              "bordeRadius"
+            )
+          }
         )}
       >
-        {"value"}
+        {"textValue"}
       </div>
 
       <div
@@ -352,20 +391,118 @@ function PlasmicDesignTokenItem__RenderFunc(props: {
         className={classNames(
           projectcss.all,
           projectcss.__wab_text,
-          sty.description
+          sty.description,
+          {
+            [sty.descriptionbordeRadius]: hasVariant(
+              $state,
+              "bordeRadius",
+              "bordeRadius"
+            ),
+            [sty.descriptioncolor]: hasVariant($state, "color", "color")
+          }
         )}
       >
         {"description"}
       </div>
+
+      <TokenSwatch
+        data-plasmic-name={"tokenSwatch"}
+        data-plasmic-override={overrides.tokenSwatch}
+        borderRadius={
+          hasVariant($state, "bordeRadius", "bordeRadius") ? true : undefined
+        }
+        borderWidth={
+          hasVariant($state, "borderWidth", "borderWidth") ? true : undefined
+        }
+        boxShadow={
+          hasVariant($state, "boxShadow", "boxShadow") ? true : undefined
+        }
+        className={classNames("__wab_instance", sty.tokenSwatch, {
+          [sty.tokenSwatchbordeRadius]: hasVariant(
+            $state,
+            "bordeRadius",
+            "bordeRadius"
+          ),
+          [sty.tokenSwatchborderWidth]: hasVariant(
+            $state,
+            "borderWidth",
+            "borderWidth"
+          ),
+          [sty.tokenSwatchboxShadow]: hasVariant(
+            $state,
+            "boxShadow",
+            "boxShadow"
+          ),
+          [sty.tokenSwatchcolor]: hasVariant($state, "color", "color"),
+          [sty.tokenSwatchfontFamily]: hasVariant(
+            $state,
+            "fontFamily",
+            "fontFamily"
+          ),
+          [sty.tokenSwatchfontSize]: hasVariant($state, "fontSize", "fontSize"),
+          [sty.tokenSwatchfontWeight]: hasVariant(
+            $state,
+            "fontWeight",
+            "fontWeight"
+          ),
+          [sty.tokenSwatchletterSpacing]: hasVariant(
+            $state,
+            "letterSpacing",
+            "letterSpacing"
+          ),
+          [sty.tokenSwatchlineHieight]: hasVariant(
+            $state,
+            "lineHieight",
+            "lineHieight"
+          ),
+          [sty.tokenSwatchopacity]: hasVariant($state, "opacity", "opacity"),
+          [sty.tokenSwatchradii]: hasVariant($state, "radii", "radii"),
+          [sty.tokenSwatchsizing]: hasVariant($state, "sizing", "sizing"),
+          [sty.tokenSwatchspacing]: hasVariant($state, "spacing", "spacing"),
+          [sty.tokenSwatchtextCase]: hasVariant($state, "textCase", "textCase"),
+          [sty.tokenSwatchtextDecoration]: hasVariant(
+            $state,
+            "textDecoration",
+            "textDecoration"
+          )
+        })}
+        color={hasVariant($state, "color", "color") ? true : undefined}
+        fontFamily={
+          hasVariant($state, "fontFamily", "fontFamily") ? true : undefined
+        }
+        fontSize={hasVariant($state, "fontSize", "fontSize") ? true : undefined}
+        fontWeight={
+          hasVariant($state, "fontWeight", "fontWeight") ? true : undefined
+        }
+        letterSpacing={
+          hasVariant($state, "letterSpacing", "letterSpacing")
+            ? true
+            : undefined
+        }
+        lineHieight={
+          hasVariant($state, "lineHieight", "lineHieight") ? true : undefined
+        }
+        opacity={hasVariant($state, "opacity", "opacity") ? true : undefined}
+        radii={hasVariant($state, "radii", "radii") ? true : undefined}
+        sizing={hasVariant($state, "sizing", "sizing") ? true : undefined}
+        spacing={hasVariant($state, "spacing", "spacing") ? true : undefined}
+        textCase={hasVariant($state, "textCase", "textCase") ? true : undefined}
+        textDecoration={
+          hasVariant($state, "textDecoration", "textDecoration")
+            ? true
+            : undefined
+        }
+      />
     </p.Stack>
   ) as React.ReactElement | null;
 }
 
 const PlasmicDescendants = {
-  root: ["root", "tokenName", "textValue", "description"],
+  root: ["root", "tokenName", "textValue", "description", "tokenSwatch"],
   tokenName: ["tokenName"],
   textValue: ["textValue"],
-  description: ["description"]
+  description: ["description"],
+  tokenSwatch: ["tokenSwatch"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
@@ -375,6 +512,7 @@ type NodeDefaultElementType = {
   tokenName: "div";
   textValue: "div";
   description: "div";
+  tokenSwatch: typeof TokenSwatch;
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -441,6 +579,7 @@ export const PlasmicDesignTokenItem = Object.assign(
     tokenName: makeNodeComponent("tokenName"),
     textValue: makeNodeComponent("textValue"),
     description: makeNodeComponent("description"),
+    tokenSwatch: makeNodeComponent("tokenSwatch"),
 
     // Metadata about props expected for PlasmicDesignTokenItem
     internalVariantProps: PlasmicDesignTokenItem__VariantProps,

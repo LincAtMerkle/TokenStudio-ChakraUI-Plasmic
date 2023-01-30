@@ -39,3 +39,53 @@
   max-width: 800px;
   min-width: 0;
 }
+.tokenSwatch:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  flex-shrink: 0;
+}
+.tokenSwatchcolor:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.tokenSwatchsizing:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.tokenSwatchspacing:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.tokenSwatchopacity:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.tokenSwatchletterSpacing:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.tokenSwatchtextCase:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.tokenSwatchtextDecoration:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.tokenSwatchbordeRadius:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.tokenSwatchborderWidth:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.tokenSwatchboxShadow:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.tokenSwatchfontFamily:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.tokenSwatchfontSize:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.tokenSwatchfontWeight:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.tokenSwatchlineHieight:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.tokenSwatchradii:global(.__wab_instance) {
+  flex-shrink: 0;
+}
