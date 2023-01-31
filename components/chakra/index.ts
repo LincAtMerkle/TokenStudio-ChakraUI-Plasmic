@@ -15,6 +15,10 @@ import {
   BreadcrumbSeparator,
   Button,
   ButtonGroup,
+  Card,
+  CardHeader,
+  CardBody,
+  CardFooter,
   Checkbox,
   CheckboxGroup,
   Code,
@@ -52,6 +56,7 @@ import {
   Radio,
   RadioGroup,
   Select,
+  Stack,
   Stat,
   StatArrow,
   StatHelpText,
@@ -66,6 +71,12 @@ import {
   TabPanel,
   TabPanels,
   Tabs,
+  Tag,
+  TagLeftIcon,
+  TagLabel,
+  TagRightIcon,
+  TagCloseButton,
+  IconButton,
   Tbody,
   Td,
   Text,
@@ -76,6 +87,22 @@ import {
   Tooltip,
   Tr,
 } from "@chakra-ui/react";
+import ImageWithOverlay from "../ImageWithOverlay";
+import ChakraDocs from "../ChakraDocs";
+import ButtonPreview from "../ButtonPreview";
+import {
+  GolfIcon,
+  BowlingIcon,
+  ArcadeIcon,
+  HijinxIcon,
+  WondervilleIcon,
+  KaraokeIcon,
+  LaserIcon,
+  EscaperoomIcon,
+  FunPassIcon,
+  LocationPinIcon
+ } from "../icons/CustomIcons"
+
 import { Registerable } from "./registerable";
 
 import registerComponent, {
@@ -172,6 +199,43 @@ import {
 import { textMeta } from "./registerText";
 import { toastMeta } from "./registerToast";
 import { tooltipMeta } from "./registerTooltip";
+import {
+  cardMeta,
+  cardHeaderMeta,
+  cardBodyMeta,
+  cardFooterMeta,
+} from "./registerCard";
+import { stackMeta } from "./registerStack";
+
+// Added
+// Chakra-UI components
+import {
+  tagMeta,
+  tagLeftIconMeta,
+  tagLabelMeta,
+  tagRightIconMeta,
+  tagCloseButtonMeta,
+} from "./registerTag";
+import { iconButtonMeta } from "./registerIconButton";
+import { imageWithOverlayMeta } from "./registerImageWithOverlay";
+import { chakraDocsMeta } from "./registerChakraDocs";
+import { buttonPreviewMeta } from "./registerButtonPreview";
+
+//Custom icons
+import { golfIconMeta } from "../icons/registerGolfIcon";
+import { bowlingIconMeta } from "../icons/registerBowlingIcon";
+import { arcadeIconMeta } from "../icons/registerArcadeIcon";
+import { hijinxIconMeta } from "../icons/registerHijinxIcon";
+import { wondervilleIconMeta } from "../icons/registerWondervilleIcon";
+import { karaokeIconMeta } from "../icons/registerKaraokeIcon";
+import { laserIconMeta } from "../icons/registerLaserIcon";
+import { escaperoomIconMeta } from "../icons/registerEscaperoomIcon";
+import { funPassIconMeta } from "../icons/registerFunPassIcon";
+import { locationPinIconMeta } from "../icons/registerLocationPinIcon";
+import { dartsIconMeta } from "../icons/registerDartsIcon";
+
+import { registerColorComponent } from "./registerColorComponent";
+import { registerSizeComponent } from "./registerSize";
 
 export * from "./registerable";
 export * from "./registerAccordion";
@@ -203,6 +267,22 @@ export * from "./registerTabs";
 export * from "./registerText";
 export * from "./registerToast";
 export * from "./registerTooltip";
+export * from "./registerCard";
+export * from "./registerStack";
+export * from "./registerTag";
+export * from "./registerImageWithOverlay";
+export * from "./registerChakraDocs";
+export * from "./registerButtonPreview";
+export * from "../icons/registerGolfIcon";
+export * from "../icons/registerBowlingIcon";
+export * from "../icons/registerArcadeIcon";
+export * from "../icons/registerHijinxIcon";
+export * from "../icons/registerWondervilleIcon";
+export * from "../icons/registerKaraokeIcon";
+export * from "../icons/registerLaserIcon";
+export * from "../icons/registerEscaperoomIcon";
+export * from "../icons/registerFunPassIcon";
+export * from "../icons/registerLocationPinIcon";
 
 export function registerAll(loader?: Registerable) {
   const _registerComponent = <T extends React.ComponentType<any>>(
@@ -295,4 +375,33 @@ export function registerAll(loader?: Registerable) {
   _registerComponent(Tabs, tabsMeta);
   _registerComponent(TabPanel, tabPanelMeta);
   _registerComponent(TabPanels, tabPanelsMeta);
+
+  // Added
+  // Chakra-UI components
+  _registerComponent(Card, cardMeta);
+  _registerComponent(CardHeader, cardHeaderMeta);
+  _registerComponent(CardBody, cardBodyMeta);
+  _registerComponent(CardFooter, cardFooterMeta);
+  _registerComponent(Stack, stackMeta);
+  _registerComponent(Tag, tagMeta);
+  _registerComponent(TagLeftIcon, tagLeftIconMeta);
+  _registerComponent(TagLabel, tagLabelMeta);
+  _registerComponent(TagRightIcon, tagRightIconMeta);
+  _registerComponent(TagCloseButton, tagCloseButtonMeta);
+  _registerComponent(IconButton, iconButtonMeta);
+  _registerComponent(ImageWithOverlay, imageWithOverlayMeta);
+  _registerComponent(ChakraDocs, chakraDocsMeta);
+  _registerComponent(ButtonPreview, buttonPreviewMeta);
+
+  //Custom icons
+  _registerComponent(GolfIcon, golfIconMeta);
+  _registerComponent(BowlingIcon, bowlingIconMeta);
+  _registerComponent(ArcadeIcon, arcadeIconMeta);
+  _registerComponent(HijinxIcon, hijinxIconMeta);
+  _registerComponent(WondervilleIcon, wondervilleIconMeta);
+  _registerComponent(KaraokeIcon, karaokeIconMeta);
+  _registerComponent(LaserIcon, laserIconMeta);
+  _registerComponent(EscaperoomIcon, escaperoomIconMeta);
+  _registerComponent(FunPassIcon, funPassIconMeta);
+  _registerComponent(LocationPinIcon, locationPinIconMeta);
 }

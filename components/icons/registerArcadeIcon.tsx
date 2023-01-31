@@ -1,10 +1,13 @@
-import { LocationPinIcon } from "../components/CustomIcons";
-import { registerComponent } from "@plasmicapp/host";
+import { IconProps } from "@chakra-ui/icons";
+import { ComponentMeta } from "@plasmicapp/host/registerComponent";
+import {
+  getComponentNameAndImportMeta,
+  getPlasmicComponentName,
+} from "../chakra/utils";
 
-export function registerLocationPinIcon() {
-  registerComponent(LocationPinIcon, {
-    name: "LocationPinIcon",
-    importPath: "@chakra-ui/react",
+export const arcadeIconMeta: ComponentMeta<IconProps> = {
+  ...getComponentNameAndImportMeta("ArcadeIcon"),
+
     props: {
       viewBox: {
         type: "string",
@@ -27,5 +30,4 @@ export function registerLocationPinIcon() {
         options: ["presentation", "img"],
       },
     },
-  });
-}
+  }

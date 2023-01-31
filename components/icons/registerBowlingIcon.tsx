@@ -1,10 +1,13 @@
-import { HijinxIcon } from "../components/CustomIcons";
-import { registerComponent } from "@plasmicapp/host";
+import { IconProps } from "@chakra-ui/icons";
+import { ComponentMeta } from "@plasmicapp/host/registerComponent";
+import {
+  getComponentNameAndImportMeta,
+  getPlasmicComponentName,
+} from "../chakra/utils";
 
-export function registerHijinxIcon() {
-  registerComponent(HijinxIcon, {
-    name: "HijinxIcon",
-    importPath: "@chakra-ui/react",
+export const bowlingIconMeta: ComponentMeta<IconProps> = {
+  ...getComponentNameAndImportMeta("BowlingIcon", "Tabs"),
+
     props: {
       viewBox: {
         type: "string",
@@ -27,5 +30,4 @@ export function registerHijinxIcon() {
         options: ["presentation", "img"],
       },
     },
-  });
-}
+  }

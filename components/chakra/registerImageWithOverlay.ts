@@ -1,10 +1,12 @@
-import ImageWithOverlay from "../components/ImageWithOverlay";
-import {registerComponent } from "@plasmicapp/host";
+import ImageWithOverlayProps from "../ImageWithOverlay";
+import { ComponentMeta } from "@plasmicapp/host/registerComponent";
+import {
+  getComponentNameAndImportMeta,
+  getPlasmicComponentName,
+} from "./utils";
 
-export function registerImageWithOverlay() {
-  registerComponent(ImageWithOverlay, {
-    name: "ImageWithOverlay",
-    importPath: "../components/ImageWithOverlay",
+export const imageWithOverlayMeta: ComponentMeta<typeof ImageWithOverlayProps> = {
+  ...getComponentNameAndImportMeta("ImageWithOverlay"),
     props: {
       // title: {
       //   type: "string",
@@ -38,5 +40,4 @@ export function registerImageWithOverlay() {
         ],
       },
     },
-  });
-}
+  }

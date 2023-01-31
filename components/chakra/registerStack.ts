@@ -1,15 +1,17 @@
-import { Stack} from "@chakra-ui/react";
-import {registerComponent } from "@plasmicapp/host";
+import { StackProps } from "@chakra-ui/react";
+import { ComponentMeta } from "@plasmicapp/host/registerComponent";
+import {
+  getComponentNameAndImportMeta,
+  getPlasmicComponentName,
+} from "./utils";
 
-export function registerStack(){
-    registerComponent(Stack, {
-        name: "Stack",
-        importPath: "@chakra-ui/react",
-        props: {
+export const stackMeta: ComponentMeta<StackProps> = {
+  ...getComponentNameAndImportMeta("Stack", "Tabs"),
+  props: {
     direction: {
       type: "choice",
       options: ["row", "column"],
-      defaultValue: "row"
+      defaultValue: "row",
     },
     align: {
       type: "choice",
@@ -31,5 +33,4 @@ export function registerStack(){
       type: "slot",
     },
   },
-});
-}
+};
